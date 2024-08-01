@@ -1,0 +1,1376 @@
+fileFormatVersion: 2
+guid: f12950860ff10804298491d63b32d071
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'contrau_rig_Render_RS:backRump_R' has translation
+      animation that will be discarded.\n\t'contrau_rig_Render_RS:backRump_R' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'contrau_rig_Render_RS:backHip_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'contrau_rig_Render_RS:backKnee_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'contrau_rig_Render_RS:backAnkle_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'contrau_rig_Render_RS:RootPart1_M'
+      has translation animation that will be discarded.\n\t'contrau_rig_Render_RS:RootPart1_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'contrau_rig_Render_RS:RootPart1_M'
+      has scale animation that will be discarded.\n\t'contrau_rig_Render_RS:Spine1_M'
+      has translation animation that will be discarded.\n\t'contrau_rig_Render_RS:Spine1_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'contrau_rig_Render_RS:Spine1_M'
+      has scale animation that will be discarded.\n\t'contrau_rig_Render_RS:Spine1Part1_M'
+      has translation animation that will be discarded.\n\t'contrau_rig_Render_RS:Spine1Part1_M'
+      has scale animation that will be discarded.\n\t'contrau_rig_Render_RS:Chest_M'
+      has translation animation that will be discarded.\n\t'contrau_rig_Render_RS:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'contrau_rig_Render_RS:ChestPart1_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'contrau_rig_Render_RS:Head_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'contrau_rig_Render_RS:backRump_L'
+      has translation animation that will be discarded.\n\t'contrau_rig_Render_RS:backRump_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'contrau_rig_Render_RS:backHip_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'contrau_rig_Render_RS:backKnee_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'contrau_rig_Render_RS:backAnkle_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: "Tr\xE2u(Clone)"
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:DeformationSystem
+      parentName: "Tr\xE2u(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Root_M
+      parentName: contrau_rig_Render_RS:DeformationSystem
+      position: {x: -0.000024897196, y: 0.0010675362, z: -0.0012573393}
+      rotation: {x: 0.50773823, y: -0.4813385, z: -0.50152004, w: 0.5089134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail0_M
+      parentName: contrau_rig_Render_RS:Root_M
+      position: {x: 0.0005591406, y: -0.00015605267, z: -0.0000059565723}
+      rotation: {x: -0.10265689, y: 0.9947026, z: 0.00053722603, w: -0.0053018723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail0Part1_M
+      parentName: contrau_rig_Render_RS:Tail0_M
+      position: {x: -0.00021493017, y: 2.8421709e-18, z: 1.3544721e-18}
+      rotation: {x: 0, y: -0, z: -0.06580935, w: 0.99783224}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail1_M
+      parentName: contrau_rig_Render_RS:Tail0Part1_M
+      position: {x: -0.00030593548, y: -0.00003545012, z: 0.0000050529065}
+      rotation: {x: 0, y: -0, z: -0.23600538, w: 0.97175175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail1Part1_M
+      parentName: contrau_rig_Render_RS:Tail1_M
+      position: {x: -0.00019524782, y: -5.6843417e-18, z: -2.664535e-19}
+      rotation: {x: 0, y: -0, z: -0.279061, w: 0.9602734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail2_M
+      parentName: contrau_rig_Render_RS:Tail1Part1_M
+      position: {x: -0.00008575874, y: -0.0001413212, z: -0.000008842586}
+      rotation: {x: 0, y: 0, z: 0.08924786, w: 0.99600947}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail2Part1_M
+      parentName: contrau_rig_Render_RS:Tail2_M
+      position: {x: -0.00019161175, y: -1.3500311e-17, z: 2.664535e-19}
+      rotation: {x: 0, y: 0, z: 0.087484, w: 0.99616593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail3_M
+      parentName: contrau_rig_Render_RS:Tail2Part1_M
+      position: {x: -0.00028985678, y: -0.000069287424, z: 0.000011819334}
+      rotation: {x: -0.009766617, y: 0.02071888, z: 0.23409504, w: 0.97194386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail3Part1_M
+      parentName: contrau_rig_Render_RS:Tail3_M
+      position: {x: -0.00024930606, y: 1.4210854e-18, z: -3.5527136e-19}
+      rotation: {x: -0.009090033, y: 0.021024512, z: 0.20247352, w: 0.9790198}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail4_M
+      parentName: contrau_rig_Render_RS:Tail3Part1_M
+      position: {x: -0.00024930606, y: 3.552713e-18, z: -2.664535e-19}
+      rotation: {x: 0.0032692563, y: 0.022281555, z: -0.05633828, w: 0.99815774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail4Part1_M
+      parentName: contrau_rig_Render_RS:Tail4_M
+      position: {x: -0.00017440433, y: 1.4210854e-18, z: 0}
+      rotation: {x: 0.003998873, y: 0.02216224, z: -0.08907183, w: 0.99577063}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail7_M
+      parentName: contrau_rig_Render_RS:Tail4Part1_M
+      position: {x: -0.00017440433, y: 6.3948837e-18, z: 5.32907e-19}
+      rotation: {x: 0, y: 0, z: 0.0183471, w: 0.99983174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail7Part1_M
+      parentName: contrau_rig_Render_RS:Tail7_M
+      position: {x: -0.0002322769, y: -1.4210854e-18, z: 4.4408913e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail5_M
+      parentName: contrau_rig_Render_RS:Tail7Part1_M
+      position: {x: -0.0002322769, y: 0, z: 7.9936046e-19}
+      rotation: {x: 0, y: 0, z: 0.08326983, w: 0.9965271}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail5Part1_M
+      parentName: contrau_rig_Render_RS:Tail5_M
+      position: {x: -0.00028515852, y: -1.4210854e-18, z: 7.105427e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tail6_M
+      parentName: contrau_rig_Render_RS:Tail5Part1_M
+      position: {x: -0.00028515852, y: -2.8421709e-18, z: -8.881784e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:RootPart1_M
+      parentName: contrau_rig_Render_RS:Root_M
+      position: {x: -0.0007850372, y: -0.00000011118203, z: -0.000000055439404}
+      rotation: {x: -0.004111343, y: -0.012643962, z: 0.0030472942, w: 0.99990696}
+      scale: {x: 1.0055056, y: 1.0055056, z: 1.0055056}
+    - name: contrau_rig_Render_RS:Spine1_M
+      parentName: contrau_rig_Render_RS:RootPart1_M
+      position: {x: -0.0007700034, y: 0.00000001098878, z: 0.00000009869214}
+      rotation: {x: -0.006163783, y: -0.010886803, z: 0.0072133103, w: 0.99989575}
+      scale: {x: 1.0082583, y: 1.0082583, z: 1.0082583}
+    - name: contrau_rig_Render_RS:Spine1Part1_M
+      parentName: contrau_rig_Render_RS:Spine1_M
+      position: {x: -0.0007305166, y: -0.00000035732455, z: -0.00000030216358}
+      rotation: {x: -0.0049035186, y: 0.00012826266, z: -0.027466103, w: 0.9996107}
+      scale: {x: 1.0055056, y: 1.0055056, z: 1.0055056}
+    - name: contrau_rig_Render_RS:Chest_M
+      parentName: contrau_rig_Render_RS:Spine1Part1_M
+      position: {x: -0.00073448295, y: -0.00000010371229, z: 3.3095443e-10}
+      rotation: {x: -0.006746606, y: 0.007706781, z: -0.34852132, w: 0.9372449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontScapular_R
+      parentName: contrau_rig_Render_RS:Chest_M
+      position: {x: -0.0008049866, y: 0.000032454853, z: -0.000034402605}
+      rotation: {x: 0.67698073, y: 0.21235725, z: 0.6717252, w: -0.21304159}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontRump_R
+      parentName: contrau_rig_Render_RS:frontScapular_R
+      position: {x: -0.0008597171, y: -4.973799e-18, z: -7.283062e-18}
+      rotation: {x: -0.3607818, y: -0.5715895, z: 0.45904905, w: 0.5765379}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontRumpPart1_R
+      parentName: contrau_rig_Render_RS:frontRump_R
+      position: {x: -0.0006114365, y: 3.5527136e-19, z: 1.4210854e-18}
+      rotation: {x: -0.0019014708, y: 0, z: -0, w: 0.9999982}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontHip_R
+      parentName: contrau_rig_Render_RS:frontRumpPart1_R
+      position: {x: -0.0006114365, y: -1.065814e-18, z: 1.065814e-18}
+      rotation: {x: -0.006070486, y: -0.015993105, z: -0.50973386, w: 0.8601621}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontHipPart1_R
+      parentName: contrau_rig_Render_RS:frontHip_R
+      position: {x: -0.00043436198, y: 1.065814e-18, z: 1.7763568e-19}
+      rotation: {x: -0.013490968, y: 0, z: -0, w: 0.999909}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontKnee_R
+      parentName: contrau_rig_Render_RS:frontHipPart1_R
+      position: {x: -0.00043436198, y: 3.5527136e-19, z: 0}
+      rotation: {x: -0.011200896, y: 0.0075197145, z: 0.55733806, w: 0.83017606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontKneePart1_R
+      parentName: contrau_rig_Render_RS:frontKnee_R
+      position: {x: -0.0004214823, y: 3.1974418e-18, z: 6.2172487e-19}
+      rotation: {x: 0.010007201, y: -0, z: -0, w: 0.99994993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontAnkle_R
+      parentName: contrau_rig_Render_RS:frontKneePart1_R
+      position: {x: -0.0004214823, y: 2.131628e-18, z: 5.32907e-19}
+      rotation: {x: 0.017138558, y: 0.027193518, z: 0.1633499, w: 0.9860444}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontToes_R
+      parentName: contrau_rig_Render_RS:frontAnkle_R
+      position: {x: -0.00023125185, y: 0.0003635232, z: 1.8680075e-12}
+      rotation: {x: 0.8132314, y: -0.58165586, z: -0.006806346, w: 0.016876822}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontToesEnd_R
+      parentName: contrau_rig_Render_RS:frontToes_R
+      position: {x: -0.00038070005, y: 1.4210854e-18, z: 4.973799e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:ChestPart1_M
+      parentName: contrau_rig_Render_RS:Chest_M
+      position: {x: -0.0007357625, y: 3.552713e-18, z: -1.2267964e-18}
+      rotation: {x: 0.012572368, y: 0.009851168, z: 0.05352105, w: 0.998439}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Neck_M
+      parentName: contrau_rig_Render_RS:ChestPart1_M
+      position: {x: -0.0007357625, y: 2.131628e-18, z: -2.1871392e-18}
+      rotation: {x: 0, y: 0, z: 0.16735584, w: 0.9858966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:NeckPart1_M
+      parentName: contrau_rig_Render_RS:Neck_M
+      position: {x: -0.00029796112, y: -3.552713e-18, z: -2.2698374e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Neck1_M
+      parentName: contrau_rig_Render_RS:NeckPart1_M
+      position: {x: -0.00029796112, y: -1.4210854e-18, z: -2.2698786e-14}
+      rotation: {x: 0, y: -0, z: -0.0014785978, w: 0.9999989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Neck1Part1_M
+      parentName: contrau_rig_Render_RS:Neck1_M
+      position: {x: -0.00026531468, y: 2.8421709e-18, z: -4.440892e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Head_M
+      parentName: contrau_rig_Render_RS:Neck1Part1_M
+      position: {x: -0.00026531468, y: 4.973799e-18, z: -2.220446e-20}
+      rotation: {x: 0, y: 0, z: 0.7692634, w: 0.6389318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:HeadEnd_M
+      parentName: contrau_rig_Render_RS:Head_M
+      position: {x: -0.0005037155, y: 7.105427e-19, z: 3.952884e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:FaceJoint_M
+      parentName: contrau_rig_Render_RS:Head_M
+      position: {x: -0.00001660475, y: 0.00017771387, z: 6.7758944e-13}
+      rotation: {x: 0.5227404, y: -0.47617483, z: -0.5227404, w: -0.47617483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperTeethJoint_M
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -2.3056378e-11, y: -0.0008774021, z: 0.001264718}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerTeethJoint_M
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -2.3866823e-11, y: -0.0009948891, z: 0.0015579605}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tongue0Joint_M
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -2.171937e-11, y: -0.0007779066, z: 0.000859623}
+      rotation: {x: 0.06360094, y: 0.7042407, z: 0.06360094, w: 0.7042407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tongue1Joint_M
+      parentName: contrau_rig_Render_RS:Tongue0Joint_M
+      position: {x: -0.00017219794, y: 0, z: 8.881784e-20}
+      rotation: {x: 4.0434292e-17, y: 3.489125e-16, z: 0.11425649, w: 0.9934513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tongue2Joint_M
+      parentName: contrau_rig_Render_RS:Tongue1Joint_M
+      position: {x: -0.0001437573, y: -1.4210854e-18, z: -2.220446e-20}
+      rotation: {x: -2.3257199e-17, y: 4.6469207e-16, z: -0.044824976, w: 0.9989949}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Tongue3Joint_M
+      parentName: contrau_rig_Render_RS:Tongue2Joint_M
+      position: {x: -0.0001599247, y: 7.105427e-19, z: -2.1094237e-19}
+      rotation: {x: -6.495681e-17, y: 1.0219386e-15, z: -0.062155087, w: 0.9980665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLidMain0_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00020403316, y: -0.000068529655, z: 0.00076538185}
+      rotation: {x: 7.520802e-10, y: -4.762135e-11, z: 3.3990938e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLidMain1_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00021741577, y: 0.000031585925, z: 0.0007686956}
+      rotation: {x: 3.9775933e-10, y: 6.376844e-10, z: 1.3807885e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLidMain2_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00027350636, y: 0.00006650909, z: 0.00074640784}
+      rotation: {x: 3.5922235e-10, y: -1.8687091e-10, z: -2.0435901e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLidMain3_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00034457239, y: 0.00006758598, z: 0.0007286142}
+      rotation: {x: 0.0000000019422366, y: 4.8930315e-10, z: 2.4647046e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLidMain4_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00038826215, y: 0.000023530047, z: 0.0007231977}
+      rotation: {x: 7.9327456e-10, y: -6.116047e-10, z: 7.313591e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLidMain5_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00040863355, y: -0.000024682382, z: 0.0007109933}
+      rotation: {x: 0.0000000017718871, y: -6.5948663e-10, z: -0.0000000012536197, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLidMain1_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00022774316, y: -0.0001216907, z: 0.00075430196}
+      rotation: {x: 7.2081574e-10, y: -2.9526398e-10, z: 2.2010543e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLidMain2_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.0002709418, y: -0.00016317534, z: 0.00073343323}
+      rotation: {x: 5.6714283e-10, y: 2.0165086e-10, z: -2.2556845e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLidMain3_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00032540935, y: -0.00017297377, z: 0.0007089735}
+      rotation: {x: 0.0000000016452326, y: 4.6250614e-11, z: 5.565165e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLidMain4_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00037952303, y: -0.0001467136, z: 0.00068767485}
+      rotation: {x: 0.0000000014005404, y: 6.6767886e-10, z: -8.617759e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLidMain5_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.0004108371, y: -0.000096877426, z: 0.00070628565}
+      rotation: {x: 3.1967026e-10, y: -9.377076e-10, z: 0.0000000011518297, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLidMain0_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.0002040332, y: -0.000068529655, z: 0.00076538185}
+      rotation: {x: 7.520842e-10, y: 4.7558187e-11, z: -3.3990888e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLidMain1_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.00021741581, y: 0.000031585918, z: 0.0007686956}
+      rotation: {x: 3.9775008e-10, y: -6.377503e-10, z: -1.3807355e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLidMain2_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.0002735064, y: 0.00006650909, z: 0.00074640784}
+      rotation: {x: 3.592244e-10, y: 1.8678264e-10, z: 2.0438068e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLidMain3_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.00034457239, y: 0.00006758598, z: 0.0007286142}
+      rotation: {x: -0.0000000025871303, y: -4.893691e-10, z: -2.4645258e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLidMain4_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.00038826215, y: 0.000023530045, z: 0.0007231977}
+      rotation: {x: -0.0000000019539979, y: 6.115648e-10, z: -7.313402e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLidMain5_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.00040863355, y: -0.000024682386, z: 0.0007109933}
+      rotation: {x: -2.834072e-10, y: 6.5945366e-10, z: 0.000000001253628, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLidMain1_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.0002277432, y: -0.000121690704, z: 0.00075430196}
+      rotation: {x: 7.2082534e-10, y: 2.9518818e-10, z: -2.2010621e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLidMain2_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.00027094182, y: -0.00016317535, z: 0.00073343323}
+      rotation: {x: 5.6714217e-10, y: -2.0174878e-10, z: 2.2558677e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLidMain3_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.00032540935, y: -0.00017297377, z: 0.0007089735}
+      rotation: {x: -0.0000000032043912, y: -4.6332133e-11, z: -5.565318e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLidMain4_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.0003795231, y: -0.0001467136, z: 0.00068767485}
+      rotation: {x: -4.695477e-10, y: -6.677174e-10, z: 8.6174806e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLidMain5_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.0004108371, y: -0.00009687744, z: 0.00070628565}
+      rotation: {x: -0.0000000015911431, y: 9.376774e-10, z: -0.0000000011518398, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:EyeBrowInnerJoint_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00014480097, y: 0.00018346275, z: 0.00091686216}
+      rotation: {x: 0.83371425, y: -3.381226e-17, z: -0.55219615, w: -5.1050275e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:EyeBrowMid1Joint_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00036171984, y: 0.0003055235, z: 0.00084664323}
+      rotation: {x: 0.806155, y: -3.6231444e-17, z: -0.59170437, w: -4.9362757e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:EyeBrowOuterJoint_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.000626482, y: 0.00039252033, z: 0.0007147195}
+      rotation: {x: 0.7766403, y: -3.8572967e-17, z: -0.6299443, w: -4.75555e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:EyeBrowCenterJoint_M
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -2.5489747e-11, y: 0.00020491506, z: 0.0009482397}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:EyeBrowInnerJoint_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.00014480102, y: 0.00018346275, z: 0.00091686216}
+      rotation: {x: 0, y: -0.55219615, z: -0, w: 0.83371425}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:EyeBrowMid1Joint_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.00036171987, y: 0.0003055235, z: 0.00084664323}
+      rotation: {x: 0, y: -0.59170437, z: -0, w: 0.806155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:EyeBrowOuterJoint_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.0006264821, y: 0.00039252033, z: 0.0007147195}
+      rotation: {x: 0, y: -0.6299443, z: -0, w: 0.7766403}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:LipJoints_M
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -2.495885e-11, y: -0.0010590095, z: 0.0018745299}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint0_M
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 3.9412915e-18, y: 0.000086618784, z: -0.00015220983}
+      rotation: {x: -1.2246467e-16, y: -0.00000004371139, z: 1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint1_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.000142767, y: 0.00008729045, z: -0.0001763115}
+      rotation: {x: -0.0000803479, y: 0.122083545, z: 0.0041297725, w: 0.9925113}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint1_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.000142767, y: 0.00008729045, z: -0.0001763115}
+      rotation: {x: -0.00008035736, y: -0.12208362, z: -0.0041298466, w: 0.9925112}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint2_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.00023540843, y: 0.0000881967, z: -0.00020426896}
+      rotation: {x: -0.00004438878, y: 0.18079914, z: 0.005106861, w: 0.9835068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint2_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.00023540843, y: 0.0000881967, z: -0.00020426896}
+      rotation: {x: -0.00004441137, y: -0.18079923, z: -0.005106982, w: 0.9835068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint3_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.00039978954, y: 0.00008973217, z: -0.00027974622}
+      rotation: {x: 0.00011235243, y: 0.26015708, z: 0.0022097547, w: 0.9655638}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint3_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.00039978954, y: 0.00008973217, z: -0.00027974622}
+      rotation: {x: 0.00011237645, y: -0.26015717, z: -0.0022096646, w: 0.9655638}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint4_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.00048508114, y: 0.00008952395, z: -0.00034348195}
+      rotation: {x: -0.00062802096, y: 0.3040029, z: -0.005095281, w: 0.9526573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint4_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.00048508114, y: 0.00008952395, z: -0.00034348195}
+      rotation: {x: -0.0006280401, y: -0.30400303, z: 0.0050952192, w: 0.9526573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint5_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.0005544049, y: 0.00008782054, z: -0.00039734412}
+      rotation: {x: -0.0026252777, y: 0.35672697, z: -0.014713626, w: 0.9340891}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint5_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.0005544049, y: 0.00008782054, z: -0.00039734412}
+      rotation: {x: -0.002625232, y: -0.35672706, z: 0.014713743, w: 0.9340891}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint6_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.00062709977, y: 0.000084088875, z: -0.00045601442}
+      rotation: {x: -0.0059336596, y: 0.40490276, z: -0.023488447, w: 0.9140388}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperLipJoint6_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.00062709977, y: 0.000084088875, z: -0.00045601442}
+      rotation: {x: -0.005933691, y: -0.40490285, z: 0.023488363, w: 0.9140387}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:LipJoint_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.000651626, y: 0.000081864826, z: -0.00049441296}
+      rotation: {x: -0.0074462043, y: 0.41764975, z: -0.025732929, w: 0.90821314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:LipJoint_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.000651626, y: 0.000081864826, z: -0.00049441296}
+      rotation: {x: -0.007446325, y: -0.41764975, z: 0.025732873, w: 0.90821314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint0_M
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 3.1419308e-18, y: -0.000029580491, z: 0.000014509581}
+      rotation: {x: -1.2246467e-16, y: -0.00000004371139, z: 1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint1_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.00014823911, y: -0.00003202648, z: 0.000004429913}
+      rotation: {x: 0.000088878034, y: 0.15058845, z: -0.013742063, w: 0.9885011}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint1_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.00014823911, y: -0.00003202648, z: 0.000004429913}
+      rotation: {x: 0.00008889638, y: -0.15058854, z: 0.013742173, w: 0.988501}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint2_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.00022708863, y: -0.000034395223, z: -0.000014777095}
+      rotation: {x: -0.0003142884, y: 0.20875318, z: -0.014742219, w: 0.9778572}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint2_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.00022708863, y: -0.000034395223, z: -0.000014777095}
+      rotation: {x: -0.00031427635, y: -0.20875327, z: 0.014742266, w: 0.9778572}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint3_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.00036483476, y: -0.000037894806, z: -0.00009212913}
+      rotation: {x: -0.0013322927, y: 0.29233566, z: -0.0047588916, w: 0.956303}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint3_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.00036483476, y: -0.000037894806, z: -0.00009212913}
+      rotation: {x: -0.0013322551, y: -0.29233575, z: 0.0047590123, w: 0.956303}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint4_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.0004815632, y: -0.000035031087, z: -0.00020819645}
+      rotation: {x: 0.0017587715, y: 0.36114848, z: 0.032126803, w: 0.93195313}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint4_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.0004815632, y: -0.000035031087, z: -0.00020819645}
+      rotation: {x: 0.0017587271, y: -0.36114854, z: -0.032126907, w: 0.9319531}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint5_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.0005474791, y: -0.00001484641, z: -0.00035272617}
+      rotation: {x: 0.024140442, y: 0.44900563, z: 0.13415214, w: 0.883071}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint5_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.0005474791, y: -0.00001484641, z: -0.00035272617}
+      rotation: {x: 0.024140378, y: -0.44900572, z: -0.13415223, w: 0.88307095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint6_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.00059806375, y: 0.0000281308, z: -0.00044829544}
+      rotation: {x: 0.0696361, y: 0.5382697, z: 0.24131921, w: 0.80447596}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint6_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.00059806375, y: 0.0000281308, z: -0.00044829544}
+      rotation: {x: 0.06963608, y: -0.5382698, z: -0.24131924, w: 0.80447596}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint7_R
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: 0.00062573474, y: 0.00006715249, z: -0.00050797005}
+      rotation: {x: 0.10114542, y: 0.5718432, z: 0.25917193, w: 0.77174795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerLipJoint7_L
+      parentName: contrau_rig_Render_RS:LipJoints_M
+      position: {x: -0.00062573474, y: 0.00006715249, z: -0.00050797005}
+      rotation: {x: 0.10114543, y: -0.57184327, z: -0.2591719, w: 0.7717479}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:SmileBulgeJoint_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.0006700668, y: -0.00092593534, z: 0.0012946735}
+      rotation: {x: 0.85649765, y: -3.1605125e-17, z: -0.5161509, w: -5.2445355e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:FrownBulgeJoint_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00051361136, y: -0.0011833342, z: 0.0012674389}
+      rotation: {x: 0.8657787, y: -3.0642323e-17, z: -0.5004271, w: -5.3013655e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:SmileBulgeJoint_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.0006700668, y: -0.00092593534, z: 0.0012946735}
+      rotation: {x: 0, y: -0.5161509, z: -0, w: 0.85649765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:FrownBulgeJoint_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.00051361136, y: -0.0011833342, z: 0.0012674389}
+      rotation: {x: 0, y: -0.5004271, z: -0, w: 0.8657787}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:CheekRaiserJoint_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00036013994, y: -0.00023346057, z: 0.0007837789}
+      rotation: {x: 0.99157363, y: 7.932304e-18, z: -0.12954435, w: 6.0716374e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:CheekRaiserJoint_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.00036014, y: -0.00023346057, z: 0.0007837789}
+      rotation: {x: 0, y: -0.12954435, z: -0, w: 0.99157363}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:CheekJoint_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00072612066, y: -0.0005965415, z: 0.00072692806}
+      rotation: {x: 0.775506, y: -3.8658435e-17, z: -0.63134015, w: -4.748605e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:CheekJoint_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.00072612066, y: -0.0005965415, z: 0.00072692806}
+      rotation: {x: 0, y: -0.63134015, z: -0, w: 0.775506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:JawJoint_M
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -2.0534682e-11, y: -0.00030050022, z: 0.0001760225}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:NoseJoint_M
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -2.6039056e-11, y: -0.0003410865, z: 0.0015359792}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:NoseCornerJoint_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.0005818593, y: -0.00074972335, z: 0.0013735464}
+      rotation: {x: 0.8762616, y: -2.9503924e-17, z: -0.48183566, w: -5.3655547e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:NoseSideJoint_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00022596486, y: -0.00021190791, z: 0.0010257383}
+      rotation: {x: 0.84905434, y: -3.2349393e-17, z: -0.52830565, w: -5.1989585e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:NostrilJoint_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.0004007557, y: -0.0003934543, z: 0.0015056898}
+      rotation: {x: 0.9205516, y: -2.3918634e-17, z: -0.39062095, w: -5.636753e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:NoseCenterJoint_M
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -2.4808003e-11, y: -0.00002783142, z: 0.0009781205}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:NoseCornerJoint_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.0005818594, y: -0.00074972335, z: 0.0013735464}
+      rotation: {x: 0, y: -0.48183566, z: -0, w: 0.8762616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:NoseSideJoint_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.00022596492, y: -0.00021190791, z: 0.0010257383}
+      rotation: {x: 0, y: -0.52830565, z: -0, w: 0.84905434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:NostrilJoint_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.0004007558, y: -0.0003934543, z: 0.0015056898}
+      rotation: {x: 0, y: -0.39062095, z: -0, w: 0.9205516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:EyeJoint_L
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -0.0002666978, y: -0.0000445458, z: 0.0006267302}
+      rotation: {x: 0, y: -0.09804319, z: -0, w: 0.9951822}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:IrisJoint_L
+      parentName: contrau_rig_Render_RS:EyeJoint_L
+      position: {x: -0.0000020325558, y: -8.709867e-14, z: 0.00011870724}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:PupilJoint_L
+      parentName: contrau_rig_Render_RS:IrisJoint_L
+      position: {x: -0.000000038406977, y: 0.00000006475448, z: -0.0000010703254}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:EyeJoint_R
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: 0.00026669775, y: -0.00004454579, z: 0.0006267302}
+      rotation: {x: 0, y: 0.09804318, z: -0, w: 0.9951822}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:IrisJoint_R
+      parentName: contrau_rig_Render_RS:EyeJoint_R
+      position: {x: 0.0000020325558, y: 8.7097606e-14, z: 0.00011870724}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:PupilJoint_R
+      parentName: contrau_rig_Render_RS:IrisJoint_R
+      position: {x: 0.000000038406977, y: 0.00000006475448, z: -0.0000010703254}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperFaceJoint_M
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -2.0690007e-11, y: -0.00025563443, z: 0.0001760225}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:middleFaceJoint_M
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -1.8855223e-11, y: -0.0007856089, z: 0.0001760225}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:lowerFaceJoint_M
+      parentName: contrau_rig_Render_RS:FaceJoint_M
+      position: {x: -1.7603625e-11, y: -0.0011471311, z: 0.0001760225}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Ear_R
+      parentName: contrau_rig_Render_RS:Head_M
+      position: {x: -0.0001458074, y: 0.00030091297, z: -0.00073964166}
+      rotation: {x: -0.09338709, y: 0.8259348, z: -0.47979432, w: -0.28090551}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Ear1_R
+      parentName: contrau_rig_Render_RS:Ear_R
+      position: {x: -0.00022518465, y: 9.237055e-18, z: -2.4868995e-18}
+      rotation: {x: 0.13159275, y: 0.03644448, z: 0.04787834, w: 0.989476}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Ear2_R
+      parentName: contrau_rig_Render_RS:Ear1_R
+      position: {x: -0.00022518465, y: 1.0302869e-17, z: 5.3290697e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Ear3_R
+      parentName: contrau_rig_Render_RS:Ear2_R
+      position: {x: -0.00022518465, y: -5.6843417e-18, z: 3.1974418e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:EarEnd_R
+      parentName: contrau_rig_Render_RS:Ear3_R
+      position: {x: -0.00022518465, y: 7.105427e-19, z: 5.32907e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn1_R
+      parentName: contrau_rig_Render_RS:Head_M
+      position: {x: -0.0004620606, y: 0.00044048816, z: -0.00056343374}
+      rotation: {x: 0.4777635, y: -0.50401735, z: 0.4959854, w: 0.52125525}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn2_R
+      parentName: contrau_rig_Render_RS:Horn1_R
+      position: {x: -0.00046091044, y: 1.5238086e-13, z: -3.552713e-18}
+      rotation: {x: 0.39553744, y: 0.018324686, z: -0.005394205, w: 0.9182513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn3_R
+      parentName: contrau_rig_Render_RS:Horn2_R
+      position: {x: -0.0005195718, y: 1.165027e-13, z: -1.2206768e-13}
+      rotation: {x: 0.03325797, y: 0.00090914714, z: 0.0082386825, w: 0.9994124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn4_R
+      parentName: contrau_rig_Render_RS:Horn3_R
+      position: {x: -0.00045115067, y: 8.720304e-14, z: -1.01783816e-13}
+      rotation: {x: 0.062058218, y: -0.022977343, z: -0.13605262, w: 0.988489}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn5_R
+      parentName: contrau_rig_Render_RS:Horn4_R
+      position: {x: -0.0003914711, y: 5.9702196e-14, z: -6.4175505e-14}
+      rotation: {x: 0.006847961, y: 0.06672839, z: -0.21591394, w: 0.97410554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn6_R
+      parentName: contrau_rig_Render_RS:Horn5_R
+      position: {x: -0.00036190983, y: 4.138276e-14, z: -1.704734e-14}
+      rotation: {x: 0.96037984, y: -0.27498406, z: -0.022236744, w: -0.03949541}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn7_R
+      parentName: contrau_rig_Render_RS:Horn6_R
+      position: {x: -0.0005181809, y: 4.4408913e-19, z: 4.973799e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Chuong_M
+      parentName: contrau_rig_Render_RS:Head_M
+      position: {x: 0.0006985298, y: -0.00016120585, z: -2.2937224e-13}
+      rotation: {x: 0, y: 0, z: 0.99891526, w: -0.04656557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:ChuongEnd_M
+      parentName: contrau_rig_Render_RS:Chuong_M
+      position: {x: -0.000634135, y: -2.8421709e-18, z: 6.0232175e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Ear_L
+      parentName: contrau_rig_Render_RS:Head_M
+      position: {x: -0.0001458074, y: 0.00030091297, z: 0.00073964166}
+      rotation: {x: 0.8259348, y: 0.09338711, z: 0.2809055, w: -0.47979435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Ear1_L
+      parentName: contrau_rig_Render_RS:Ear_L
+      position: {x: 0.00022518465, y: -7.105426e-18, z: 3.3750778e-18}
+      rotation: {x: 0.13159275, y: 0.03644448, z: 0.04787834, w: 0.989476}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Ear2_L
+      parentName: contrau_rig_Render_RS:Ear1_L
+      position: {x: 0.00022518465, y: -9.947598e-18, z: -5.3290697e-18}
+      rotation: {x: -0.000000010536712, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Ear3_L
+      parentName: contrau_rig_Render_RS:Ear2_L
+      position: {x: 0.00022518465, y: 6.3948837e-18, z: -1.7763565e-18}
+      rotation: {x: 0.000000010536713, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:EarEnd_L
+      parentName: contrau_rig_Render_RS:Ear3_L
+      position: {x: 0.00022518465, y: -1.4210854e-18, z: -5.32907e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn1_L
+      parentName: contrau_rig_Render_RS:Head_M
+      position: {x: -0.0004620606, y: 0.00044048816, z: 0.00056343374}
+      rotation: {x: 0.50401735, y: 0.4777635, z: 0.52125525, w: -0.49598536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn2_L
+      parentName: contrau_rig_Render_RS:Horn1_L
+      position: {x: 0.00046091044, y: 1.7053025e-17, z: 7.105426e-18}
+      rotation: {x: 0.39062682, y: -0.07725324, z: 0.026590163, w: 0.9169164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn3_L
+      parentName: contrau_rig_Render_RS:Horn2_L
+      position: {x: 0.0005195718, y: -5.551115e-19, z: 1.2079226e-17}
+      rotation: {x: 0.031387843, y: 0.12046145, z: -0.16924378, w: 0.97768116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn4_L
+      parentName: contrau_rig_Render_RS:Horn3_L
+      position: {x: 0.00045115067, y: -3.3750778e-18, z: -1.4210854e-18}
+      rotation: {x: 0.04074865, y: -0.0668473, z: 0.0993156, w: 0.99197155}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn5_L
+      parentName: contrau_rig_Render_RS:Horn4_L
+      position: {x: 0.0003914711, y: -2.8421709e-18, z: -2.8421709e-18}
+      rotation: {x: 0.020660242, y: -0.02176174, z: -0.1294685, w: 0.99112946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn6_L
+      parentName: contrau_rig_Render_RS:Horn5_L
+      position: {x: 0.00036190983, y: -1.6875389e-18, z: -3.552713e-18}
+      rotation: {x: 0.96037984, y: -0.27498406, z: -0.022236744, w: -0.03949541}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Horn7_L
+      parentName: contrau_rig_Render_RS:Horn6_L
+      position: {x: 0.0005181809, y: 2.5535128e-19, z: -5.6843417e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:HairB_R
+      parentName: contrau_rig_Render_RS:Head_M
+      position: {x: -0.0007593414, y: 0.0007357823, z: -0.00004120178}
+      rotation: {x: -0.1652019, y: -0.68224615, z: -0.04200407, w: 0.7109742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:HairBPart1_R
+      parentName: contrau_rig_Render_RS:HairB_R
+      position: {x: -0.00016018805, y: -7.105427e-19, z: 4.936069e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:HairBPart2_R
+      parentName: contrau_rig_Render_RS:HairBPart1_R
+      position: {x: -0.00016018805, y: 0, z: 4.935927e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:HairBEnd_R
+      parentName: contrau_rig_Render_RS:HairBPart2_R
+      position: {x: -0.00016018805, y: 7.105427e-19, z: -1.4210854e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:HairB_L
+      parentName: contrau_rig_Render_RS:Head_M
+      position: {x: -0.0007593414, y: 0.0007357823, z: 0.00004120178}
+      rotation: {x: 0.68224615, y: -0.16520189, z: 0.7109742, w: 0.04200407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:HairBPart1_L
+      parentName: contrau_rig_Render_RS:HairB_L
+      position: {x: 0.00016018805, y: -1.7763565e-18, z: 2.8421709e-18}
+      rotation: {x: -0.000000014901163, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:HairBPart2_L
+      parentName: contrau_rig_Render_RS:HairBPart1_L
+      position: {x: 0.00016018805, y: 2.4868995e-18, z: 2.131628e-18}
+      rotation: {x: -0.000000019712383, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:HairBEnd_L
+      parentName: contrau_rig_Render_RS:HairBPart2_L
+      position: {x: 0.00016018805, y: -7.105427e-19, z: 7.105427e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontScapular_L
+      parentName: contrau_rig_Render_RS:Chest_M
+      position: {x: -0.0008049866, y: 0.000032454853, z: 0.000034402605}
+      rotation: {x: 0.21235724, y: -0.67698073, z: 0.21304157, w: 0.6717252}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontRump_L
+      parentName: contrau_rig_Render_RS:frontScapular_L
+      position: {x: 0.0008597171, y: 1.13686835e-17, z: 7.283062e-18}
+      rotation: {x: -0.5187111, y: -0.43303132, z: 0.55689627, w: 0.48300025}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontRumpPart1_L
+      parentName: contrau_rig_Render_RS:frontRump_L
+      position: {x: 0.0006114365, y: 6.9277915e-18, z: -1.5987209e-18}
+      rotation: {x: -0.0011136273, y: 0, z: -0, w: 0.9999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontHip_L
+      parentName: contrau_rig_Render_RS:frontRumpPart1_L
+      position: {x: 0.0006114365, y: 7.460698e-18, z: -1.5987209e-18}
+      rotation: {x: -0.009347733, y: -0.02947264, z: -0.63755304, w: 0.7697858}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontHipPart1_L
+      parentName: contrau_rig_Render_RS:frontHip_L
+      position: {x: 0.00043436198, y: 3.552713e-18, z: -3.5527136e-19}
+      rotation: {x: -0.018401813, y: 0, z: -0, w: 0.9998307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontKnee_L
+      parentName: contrau_rig_Render_RS:frontHipPart1_L
+      position: {x: 0.00043436198, y: 4.973799e-18, z: 5.32907e-19}
+      rotation: {x: -0.012110707, y: 0.01385487, z: 0.75278044, w: 0.6580145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontKneePart1_L
+      parentName: contrau_rig_Render_RS:frontKnee_L
+      position: {x: 0.0004214823, y: 2.6645349e-18, z: -1.2434497e-18}
+      rotation: {x: 0.019275952, y: -0, z: -0, w: 0.9998142}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontAnkle_L
+      parentName: contrau_rig_Render_RS:frontKneePart1_L
+      position: {x: 0.0004214823, y: 3.552713e-18, z: -1.5987209e-18}
+      rotation: {x: 0.021144083, y: 0.02150666, z: 0.3572409, w: 0.9335252}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontToes_L
+      parentName: contrau_rig_Render_RS:frontAnkle_L
+      position: {x: 0.00023125185, y: -0.0003635232, z: -2.8857166e-13}
+      rotation: {x: 0.81323117, y: -0.5816563, z: -0.0068063135, w: 0.01687685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:frontToesEnd_L
+      parentName: contrau_rig_Render_RS:frontToes_L
+      position: {x: 0.00038070005, y: -5.5067055e-18, z: -4.973799e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backRump_L
+      parentName: contrau_rig_Render_RS:Root_M
+      position: {x: 0.00006106581, y: 0.0007423328, z: 0.00085036625}
+      rotation: {x: 0.03780515, y: 0.07416709, z: 0.8756877, w: 0.47564805}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backRumpPart1_L
+      parentName: contrau_rig_Render_RS:backRump_L
+      position: {x: 0.00056104845, y: -1.7763565e-18, z: 8.881783e-19}
+      rotation: {x: -0.06811641, y: -0.11945467, z: -0.6046776, w: 0.78450996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backHip_L
+      parentName: contrau_rig_Render_RS:backRumpPart1_L
+      position: {x: 0.00056104845, y: -1.4210854e-18, z: 1.065814e-18}
+      rotation: {x: -0.005488082, y: -0.016592719, z: -0.6013616, w: 0.7987859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backHipPart1_L
+      parentName: contrau_rig_Render_RS:backHip_L
+      position: {x: 0.0005199041, y: -7.105427e-19, z: -1.5987209e-18}
+      rotation: {x: -0.008220552, y: -0.0062560574, z: -0.042453974, w: 0.9990451}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backKnee_L
+      parentName: contrau_rig_Render_RS:backHipPart1_L
+      position: {x: 0.0005199041, y: -3.5527136e-19, z: -1.4210854e-18}
+      rotation: {x: -0.008446012, y: 0.009337782, z: 0.74157405, w: 0.6707528}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backKneePart1_L
+      parentName: contrau_rig_Render_RS:backKnee_L
+      position: {x: 0.00044776886, y: -2.2648548e-18, z: -1.5987209e-18}
+      rotation: {x: 0.08810368, y: 0.07147228, z: 0.6436221, w: 0.75688845}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backAnkle_L
+      parentName: contrau_rig_Render_RS:backKneePart1_L
+      position: {x: 0.00044776886, y: -1.9984014e-18, z: -1.2434497e-18}
+      rotation: {x: 0.83195585, y: -0.54985803, z: 0.0739477, w: -0.0061113527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backToes_L
+      parentName: contrau_rig_Render_RS:backAnkle_L
+      position: {x: 0.00026677558, y: -0.00040826402, z: -3.7068173e-13}
+      rotation: {x: 0.80118966, y: -0.598325, z: 0.0076281354, w: -0.006641974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backToesEnd_L
+      parentName: contrau_rig_Render_RS:backToes_L
+      position: {x: 0.00037115405, y: -3.9968023e-19, z: 7.105427e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backRump_R
+      parentName: contrau_rig_Render_RS:Root_M
+      position: {x: 0.000042926236, y: 0.00074229913, z: -0.00085150404}
+      rotation: {x: 0.051026583, y: -0.052172508, z: -0.7421601, w: 0.6662378}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backRumpPart1_R
+      parentName: contrau_rig_Render_RS:backRump_R
+      position: {x: -0.00056104845, y: 2.131628e-18, z: 7.105427e-19}
+      rotation: {x: -0.03779339, y: -0.063624546, z: -0.3618835, w: 0.92928135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backHip_R
+      parentName: contrau_rig_Render_RS:backRumpPart1_R
+      position: {x: -0.00056104845, y: 1.4210854e-18, z: 5.32907e-19}
+      rotation: {x: 0.0039187125, y: 0.006379644, z: -0.48295543, w: 0.8756129}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backHipPart1_R
+      parentName: contrau_rig_Render_RS:backHip_R
+      position: {x: -0.0005199041, y: 7.105427e-19, z: 3.552713e-18}
+      rotation: {x: 0.009196536, y: -0.0014801903, z: -0.012043313, w: 0.99988407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backKnee_R
+      parentName: contrau_rig_Render_RS:backHipPart1_R
+      position: {x: -0.0005199041, y: 1.065814e-18, z: 3.552713e-18}
+      rotation: {x: 0.0068907035, y: -0.004404452, z: 0.53854996, w: 0.8425539}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backKneePart1_R
+      parentName: contrau_rig_Render_RS:backKnee_R
+      position: {x: -0.00044776886, y: 3.1974418e-18, z: 1.4210854e-18}
+      rotation: {x: 0.05684713, y: 0.07080375, z: 0.36996174, w: 0.9245992}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backAnkle_R
+      parentName: contrau_rig_Render_RS:backKneePart1_R
+      position: {x: -0.00044776886, y: 2.8421709e-18, z: 1.5987209e-18}
+      rotation: {x: 0.99779594, y: -0.062734745, z: -0.005064078, w: -0.021022463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backToes_R
+      parentName: contrau_rig_Render_RS:backAnkle_R
+      position: {x: -0.00026677558, y: 0.00040826402, z: 6.8567487e-12}
+      rotation: {x: 0.8011882, y: -0.59832704, z: 0.0076282183, w: -0.0066419053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:backToesEnd_R
+      parentName: contrau_rig_Render_RS:backToes_R
+      position: {x: -0.00037115405, y: 5.32907e-19, z: -7.105427e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Geometry
+      parentName: "Tr\xE2u(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:geo
+      parentName: contrau_rig_Render_RS:Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:CONTRAU
+      parentName: contrau_rig_Render_RS:geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:luoi_Geo
+      parentName: contrau_rig_Render_RS:CONTRAU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:contrau_Geo
+      parentName: contrau_rig_Render_RS:CONTRAU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:hair_Geo
+      parentName: contrau_rig_Render_RS:CONTRAU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:hair_R
+      parentName: contrau_rig_Render_RS:hair_Geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:tocC0
+      parentName: contrau_rig_Render_RS:hair_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:tocB0
+      parentName: contrau_rig_Render_RS:hair_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:tocA0
+      parentName: contrau_rig_Render_RS:hair_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:hair_L
+      parentName: contrau_rig_Render_RS:hair_Geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:tocC
+      parentName: contrau_rig_Render_RS:hair_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:tocB
+      parentName: contrau_rig_Render_RS:hair_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:tocA
+      parentName: contrau_rig_Render_RS:hair_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:contrau_eye2_Geo
+      parentName: contrau_rig_Render_RS:CONTRAU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:thuytinhthe
+      parentName: contrau_rig_Render_RS:contrau_eye2_Geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:thuytinhthe0
+      parentName: contrau_rig_Render_RS:contrau_eye2_Geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:contrau_eye_Geo
+      parentName: contrau_rig_Render_RS:CONTRAU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:longtrang0
+      parentName: contrau_rig_Render_RS:contrau_eye_Geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:longtrang
+      parentName: contrau_rig_Render_RS:contrau_eye_Geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:contrau_eye_iris_Geo
+      parentName: contrau_rig_Render_RS:CONTRAU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:longdenngoai
+      parentName: contrau_rig_Render_RS:contrau_eye_iris_Geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:longdenngoai0
+      parentName: contrau_rig_Render_RS:contrau_eye_iris_Geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:contrau_eye_longden_Geo
+      parentName: contrau_rig_Render_RS:CONTRAU
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:longden0
+      parentName: contrau_rig_Render_RS:contrau_eye_longden_Geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:longden
+      parentName: contrau_rig_Render_RS:contrau_eye_longden_Geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:body2
+      parentName: contrau_rig_Render_RS:CONTRAU
+      position: {x: -0, y: -0.0046653296, z: 0.0021646656}
+      rotation: {x: 0.096880205, y: -0, z: -0, w: 0.99529606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:FaceGroup
+      parentName: "Tr\xE2u(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:FaceMotionSystem
+      parentName: contrau_rig_Render_RS:FaceGroup
+      position: {x: -0.00008269669, y: 0.0027197618, z: 0.003430225}
+      rotation: {x: 8.326673e-17, y: 0.0000000020753932, z: -0.0000000017310109, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:ControlsSetup
+      parentName: contrau_rig_Render_RS:FaceMotionSystem
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:OnFacecontrols
+      parentName: contrau_rig_Render_RS:ControlsSetup
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.2369226, y: 1.2369226, z: 1.2369226}
+    - name: contrau_rig_Render_RS:upperFaceOffset_M
+      parentName: contrau_rig_Render_RS:OnFacecontrols
+      position: {x: -1.6851812e-11, y: -0.00020666975, z: 0.0002866068}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperFace_M
+      parentName: contrau_rig_Render_RS:upperFaceOffset_M
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperSideReverse_R
+      parentName: contrau_rig_Render_RS:upperFace_M
+      position: {x: 1.6851812e-11, y: 0.00020666975, z: -0.0002866068}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: -1}
+    - name: contrau_rig_Render_RS:EyeOffset_R
+      parentName: contrau_rig_Render_RS:upperSideReverse_R
+      position: {x: -0.00021561394, y: -0.000036013407, z: 0.00065098505}
+      rotation: {x: 6.694075e-17, y: 0.9951822, z: -6.694075e-17, w: 0.09804318}
+      scale: {x: 0.80845803, y: 0.80845803, z: -0.80845803}
+    - name: contrau_rig_Render_RS:EyeAim_R
+      parentName: contrau_rig_Render_RS:EyeOffset_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 4.1633363e-17, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:SDKEye_R
+      parentName: contrau_rig_Render_RS:EyeAim_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Eye_R
+      parentName: contrau_rig_Render_RS:SDKEye_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:IrisOffset_R
+      parentName: contrau_rig_Render_RS:Eye_R
+      position: {x: 0.0000020325558, y: 0, z: 0.00011870724}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:SDKIris_R
+      parentName: contrau_rig_Render_RS:IrisOffset_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Iris_R
+      parentName: contrau_rig_Render_RS:SDKIris_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:PupilOffset_R
+      parentName: contrau_rig_Render_RS:Iris_R
+      position: {x: 0.000000038406977, y: 0.00000006475448, z: -0.0000010703254}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:SDKPupil_R
+      parentName: contrau_rig_Render_RS:PupilOffset_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Pupil_R
+      parentName: contrau_rig_Render_RS:SDKPupil_R
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:upperSideReverse_L
+      parentName: contrau_rig_Render_RS:upperFace_M
+      position: {x: 1.6851812e-11, y: 0.00020666975, z: -0.0002866068}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:EyeOffset_L
+      parentName: contrau_rig_Render_RS:upperSideReverse_L
+      position: {x: -0.00021561397, y: -0.000036013407, z: 0.00065098505}
+      rotation: {x: 0, y: -0.09804318, z: -0, w: 0.9951822}
+      scale: {x: 0.80845803, y: 0.80845803, z: 0.80845803}
+    - name: contrau_rig_Render_RS:EyeAim_L
+      parentName: contrau_rig_Render_RS:EyeOffset_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -3.1918912e-16, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:SDKEye_L
+      parentName: contrau_rig_Render_RS:EyeAim_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Eye_L
+      parentName: contrau_rig_Render_RS:SDKEye_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:IrisOffset_L
+      parentName: contrau_rig_Render_RS:Eye_L
+      position: {x: -0.0000020325558, y: 0, z: 0.00011870724}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:SDKIris_L
+      parentName: contrau_rig_Render_RS:IrisOffset_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Iris_L
+      parentName: contrau_rig_Render_RS:SDKIris_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:PupilOffset_L
+      parentName: contrau_rig_Render_RS:Iris_L
+      position: {x: -0.000000038406977, y: 0.00000006475448, z: -0.0000010703254}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:SDKPupil_L
+      parentName: contrau_rig_Render_RS:PupilOffset_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: contrau_rig_Render_RS:Pupil_L
+      parentName: contrau_rig_Render_RS:SDKPupil_L
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

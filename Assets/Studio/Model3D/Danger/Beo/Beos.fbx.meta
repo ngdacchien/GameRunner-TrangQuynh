@@ -1,0 +1,2148 @@
+fileFormatVersion: 2
+guid: 83913ac6c3b9cf444a618a75b802cd23
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nhocBeo_rig_game_low_Eyetrong_suot
+    second: {fileID: 2100000, guid: afa9a20875788214abe5cc6c95619bba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nhocBeo_rig_game_low_eyeBall_den
+    second: {fileID: 2100000, guid: 299b9f47e1961914f81bbf14ed0d8a99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nhocBeo_rig_game_low_eyeBall_trang
+    second: {fileID: 2100000, guid: 526da195eea7cb24da428bb535456ec6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nhocBeo_rig_game_low_nhocBeo_hair_mat
+    second: {fileID: 2100000, guid: b1f7d0ff40e789f43aac394303e5ece7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nhocBeo_rig_game_low_nhocBeo_mat
+    second: {fileID: 2100000, guid: 027a7d30fe9377c4ab4208f7fd9121a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nhocBeo_rig_game_low_nhocBeo_outFit_mat
+    second: {fileID: 2100000, guid: 8940e03572381f140af62f279c382dd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nhocBeo_rig_game_low_rigeyeBall_iris_mat
+    second: {fileID: 2100000, guid: fa2f965ec9e1acb4c876a8ed562d3b16, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'nhocBeo_rig_game_low:HipPart1_L'
+      : rotation error = 17.446886 deg\n\t'nhocBeo_rig_game_low:KneePart1_L' : rotation
+      error = 0.887983 deg\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'nhocBeo_rig_game_low:DeformationSystem|nhocBeo_rig_game_low:DeformationSystem|Take
+      001|BaseLayer' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'nhocBeo_rig_game_low:Spine1_M'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Spine1_M'
+      has scale animation that will be discarded.\n\t'nhocBeo_rig_game_low:Chest_M'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Scapula_R'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Scapula_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nhocBeo_rig_game_low:ShoulderPart1_R'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Elbow_R'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:ElbowPart1_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Scapula_L'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Scapula_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nhocBeo_rig_game_low:ShoulderPart1_L'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Elbow_L'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:ElbowPart1_L'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:ElbowPart1_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Wrist_L'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Hip_R'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Hip_R'
+      has scale animation that will be discarded.\n\t'nhocBeo_rig_game_low:HipPart1_R'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:HipPart1_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nhocBeo_rig_game_low:HipPart1_R'
+      has scale animation that will be discarded.\n\t'nhocBeo_rig_game_low:Knee_R'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Knee_R'
+      has scale animation that will be discarded.\n\t'nhocBeo_rig_game_low:KneePart1_R'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:KneePart1_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nhocBeo_rig_game_low:KneePart1_R'
+      has scale animation that will be discarded.\n\t'nhocBeo_rig_game_low:Ankle_R'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Hip_L'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Hip_L'
+      has scale animation that will be discarded.\n\t'nhocBeo_rig_game_low:HipPart1_L'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:HipPart1_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nhocBeo_rig_game_low:HipPart1_L'
+      has scale animation that will be discarded.\n\t'nhocBeo_rig_game_low:Knee_L'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:Knee_L'
+      has scale animation that will be discarded.\n\t'nhocBeo_rig_game_low:KneePart1_L'
+      has translation animation that will be discarded.\n\t'nhocBeo_rig_game_low:KneePart1_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'nhocBeo_rig_game_low:KneePart1_L'
+      has scale animation that will be discarded.\n\t'nhocBeo_rig_game_low:Ankle_L'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: nhocBeo_rig_game_low:DeformationSystem|nhocBeo_rig_game_low:DeformationSystem|Take
+        001|BaseLayer
+      takeName: nhocBeo_rig_game_low:DeformationSystem|nhocBeo_rig_game_low:DeformationSystem|Take
+        001|BaseLayer
+      internalID: -3598710802838504002
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Beos(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:pant_geo_low
+      parentName: Beos(Clone)
+      position: {x: -4.749745e-10, y: 3.5229217e-10, z: -3.352761e-10}
+      rotation: {x: -0.000000037748947, y: -3.469447e-18, z: -8.6736174e-19, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: nhocBeo_rig_game_low:nhocBeo_Geo_low
+      parentName: Beos(Clone)
+      position: {x: 3.8184225e-10, y: 6.5031525e-10, z: -3.72529e-10}
+      rotation: {x: -0.000000037748947, y: -3.469447e-18, z: -8.6736174e-19, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: nhocBeo_rig_game_low:eye_longtrang_R_Geo
+      parentName: Beos(Clone)
+      position: {x: 8.9406943e-10, y: 4.500025e-17, z: 5.9604643e-10}
+      rotation: {x: -0.000000037748947, y: 9.3675603e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:eye_highlight_L_Geo
+      parentName: Beos(Clone)
+      position: {x: -8.940699e-10, y: 4.500025e-17, z: 5.9604643e-10}
+      rotation: {x: -0.000000037748947, y: -3.4347717e-31, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:hair_geo_low
+      parentName: Beos(Clone)
+      position: {x: 7.4505796e-10, y: -0.0000000060378804, z: 5.9604677e-10}
+      rotation: {x: -0.000000037748947, y: -2.938736e-39, z: 1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:rig_L_eyeBall_outer_geo_low
+      parentName: Beos(Clone)
+      position: {x: -8.940699e-10, y: 4.500025e-17, z: 5.9604643e-10}
+      rotation: {x: -0.000000037748947, y: -3.4347717e-31, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:shirt_geo_low
+      parentName: Beos(Clone)
+      position: {x: -4.749745e-10, y: 3.5229217e-10, z: -3.352761e-10}
+      rotation: {x: -0.000000037748947, y: -3.469447e-18, z: -8.6736174e-19, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: nhocBeo_rig_game_low:Eyelash_geo_low
+      parentName: Beos(Clone)
+      position: {x: -1.687539e-16, y: -3.5527136e-17, z: 1.776357e-17}
+      rotation: {x: -0.000000037748947, y: 2.23262e-40, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:nhocBeo_LowerTeeth_Geo_low
+      parentName: Beos(Clone)
+      position: {x: -6.352747e-24, y: -3.35278e-25, z: -4.440892e-18}
+      rotation: {x: -0.000000037748947, y: 2.23262e-40, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:eye_longden_R_Geo
+      parentName: Beos(Clone)
+      position: {x: 8.9406943e-10, y: 4.500025e-17, z: 5.9604643e-10}
+      rotation: {x: -0.000000037748947, y: 9.3675603e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:rig_L_eyeBall_iris_poly_low
+      parentName: Beos(Clone)
+      position: {x: -8.940699e-10, y: 4.500025e-17, z: 5.9604643e-10}
+      rotation: {x: -0.000000037748947, y: -3.4347717e-31, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:nhocBeo_ToeNail_Geo_low
+      parentName: Beos(Clone)
+      position: {x: -4.749745e-10, y: 3.5229217e-10, z: -3.352761e-10}
+      rotation: {x: -0.000000037748947, y: -3.469447e-18, z: -8.6736174e-19, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: nhocBeo_rig_game_low:eyeBrow_geo_low
+      parentName: Beos(Clone)
+      position: {x: -5.9604666e-10, y: 2.1197426e-16, z: 0.0000000032782554}
+      rotation: {x: -0.000000037748947, y: 1.7486112e-30, z: 3.1554436e-30, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: nhocBeo_rig_game_low:nhocBeo_tongue_Geo_low
+      parentName: Beos(Clone)
+      position: {x: 4.2351646e-24, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:eye_highlight_R_Geo
+      parentName: Beos(Clone)
+      position: {x: 8.9406943e-10, y: 4.500025e-17, z: 5.9604643e-10}
+      rotation: {x: -0.000000037748947, y: 9.3675603e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:eye_longtrang_L_Geo
+      parentName: Beos(Clone)
+      position: {x: -8.940699e-10, y: 4.500025e-17, z: 5.9604643e-10}
+      rotation: {x: -0.000000037748947, y: -3.4347717e-31, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:bell_geo_low
+      parentName: Beos(Clone)
+      position: {x: -4.749745e-10, y: 3.5229217e-10, z: -3.352761e-10}
+      rotation: {x: -0.000000037748947, y: -3.469447e-18, z: -8.6736174e-19, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: nhocBeo_rig_game_low:nhocBeo_fingerNails_Geo_low
+      parentName: Beos(Clone)
+      position: {x: -4.749745e-10, y: 3.5229217e-10, z: -3.352761e-10}
+      rotation: {x: -0.000000037748947, y: -3.469447e-18, z: -8.6736174e-19, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: nhocBeo_rig_game_low:nhocBeo_upperTeeth_Geo_low
+      parentName: Beos(Clone)
+      position: {x: -1.4823077e-23, y: -3.35278e-25, z: -4.440892e-18}
+      rotation: {x: -0.000000037748947, y: 2.23262e-40, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:rig_R_eyeBall_iris_poly_low
+      parentName: Beos(Clone)
+      position: {x: 8.9406943e-10, y: 4.500025e-17, z: 5.9604643e-10}
+      rotation: {x: -0.000000037748947, y: 9.3675603e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:rig_R_eyeBall_outer_geo_low
+      parentName: Beos(Clone)
+      position: {x: 8.9406943e-10, y: 4.500025e-17, z: 5.9604643e-10}
+      rotation: {x: -0.000000037748947, y: 9.3675603e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:eye_longden_L_Geo
+      parentName: Beos(Clone)
+      position: {x: -8.940699e-10, y: 4.500025e-17, z: 5.9604643e-10}
+      rotation: {x: -0.000000037748947, y: -3.4347717e-31, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Group
+      parentName: Beos(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.000000037748947, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:DeformationSystem
+      parentName: nhocBeo_rig_game_low:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Root_M
+      parentName: nhocBeo_rig_game_low:DeformationSystem
+      position: {x: 0.00000054668635, y: 0.11043375, z: 0.0023917342}
+      rotation: {x: 0.48450637, y: -0.5150277, z: -0.48450643, w: 0.51502776}
+      scale: {x: 0.9999987, y: 0.9999987, z: 1.0000001}
+    - name: nhocBeo_rig_game_low:Spine1_M
+      parentName: nhocBeo_rig_game_low:Root_M
+      position: {x: -0.03856244, y: -0.000000005364418, z: -8.9406965e-10}
+      rotation: {x: 0.000000029802319, y: 0.000000029802319, z: -0.0070633283, w: 0.9999751}
+      scale: {x: 0.9967405, y: 0.9967406, z: 0.9967381}
+    - name: nhocBeo_rig_game_low:Chest_M
+      parentName: nhocBeo_rig_game_low:Spine1_M
+      position: {x: -0.032917388, y: -0.00000001579523, z: -6.519258e-10}
+      rotation: {x: -3.8965625e-10, y: -0.000000058781666, z: 0.027380971, w: 0.9996251}
+      scale: {x: 1.0000049, y: 1.0000036, z: 1.0000087}
+    - name: nhocBeo_rig_game_low:Neck_M
+      parentName: nhocBeo_rig_game_low:Chest_M
+      position: {x: -0.030380905, y: -0.000000002235174, z: 0.0000000010058283}
+      rotation: {x: -0.0000000012629111, y: -0.0000000012651603, z: -0.042404424, w: 0.9991005}
+      scale: {x: 1.0000021, y: 1.0000029, z: 0.999999}
+    - name: nhocBeo_rig_game_low:Head_M
+      parentName: nhocBeo_rig_game_low:Neck_M
+      position: {x: -0.0139325615, y: 0.00000001385808, z: -9.872019e-10}
+      rotation: {x: 0.00000005959008, y: 0.0000000013169194, z: -0.00000008568167, w: 1}
+      scale: {x: 1.0000079, y: 1.0000077, z: 1.0000061}
+    - name: nhocBeo_rig_game_low:HeadEnd_M
+      parentName: nhocBeo_rig_game_low:Head_M
+      position: {x: -0.116398305, y: 0, z: 0.0000000046938657}
+      rotation: {x: -0.000000029136569, y: -0.000000030453492, z: 0.000000119209275, w: 1}
+      scale: {x: 1.0000056, y: 1.0000058, z: 1.0000057}
+    - name: nhocBeo_rig_game_low:HeadEnd_M_end
+      parentName: nhocBeo_rig_game_low:HeadEnd_M
+      position: {x: -0, y: 0.087696925, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Hair01_R
+      parentName: nhocBeo_rig_game_low:Head_M
+      position: {x: -0.082597815, y: -0.012100459, z: -0.053200077}
+      rotation: {x: 0.029922875, y: 0.9748555, z: -0.10365807, w: -0.19497809}
+      scale: {x: 1.0000044, y: 1.0000051, z: 1.0000073}
+    - name: nhocBeo_rig_game_low:Hair02_R
+      parentName: nhocBeo_rig_game_low:Hair01_R
+      position: {x: -0.015247963, y: -0.000000022649765, z: -0.000000014305114}
+      rotation: {x: 0.00000021839509, y: -0.059066534, z: -0.00000032596282, w: 0.99825406}
+      scale: {x: 1.0000027, y: 1.0000026, z: 1.0000045}
+    - name: nhocBeo_rig_game_low:Hair03_R
+      parentName: nhocBeo_rig_game_low:Hair02_R
+      position: {x: -0.01179292, y: -0.000000032782555, z: 0.000000009536743}
+      rotation: {x: -0.0000002273963, y: -0.08572922, z: 0.0000003668709, w: 0.99631846}
+      scale: {x: 0.9999986, y: 1.0000046, z: 1.0000073}
+    - name: nhocBeo_rig_game_low:HairEnd_R
+      parentName: nhocBeo_rig_game_low:Hair03_R
+      position: {x: -0.01253815, y: 0.000000012516975, z: -0.000000028610229}
+      rotation: {x: 0.00000020158102, y: -0.00000018626449, z: -0.000000108482595, w: 1}
+      scale: {x: 1.0000038, y: 1, z: 1.0000037}
+    - name: nhocBeo_rig_game_low:HairEnd_R_end
+      parentName: nhocBeo_rig_game_low:HairEnd_R
+      position: {x: -0, y: 0.012538149, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Hair04_L
+      parentName: nhocBeo_rig_game_low:Head_M
+      position: {x: -0.10863428, y: 0.025054943, z: 0.00062897353}
+      rotation: {x: -0.31991655, y: 0.63059765, z: 0.63059783, w: -0.3199164}
+      scale: {x: 1.0000076, y: 1.0000104, z: 1.0000032}
+    - name: nhocBeo_rig_game_low:Hair05_L
+      parentName: nhocBeo_rig_game_low:Hair04_L
+      position: {x: -0.014757466, y: 0.000000008484348, z: 0.000000038519502}
+      rotation: {x: 0.000000059604638, y: -0.08449984, z: 0.00000020861623, w: 0.9964235}
+      scale: {x: 1.0000026, y: 1.0000005, z: 1.0000021}
+    - name: nhocBeo_rig_game_low:Hair06_L
+      parentName: nhocBeo_rig_game_low:Hair05_L
+      position: {x: -0.014428707, y: -0.0000000020116566, z: 0.000000028461217}
+      rotation: {x: 0.000000014497303, y: -0.050585628, z: -0.000000057753965, w: 0.99871975}
+      scale: {x: 1.0000052, y: 1.0000058, z: 0.99999636}
+    - name: nhocBeo_rig_game_low:Hair06End_L
+      parentName: nhocBeo_rig_game_low:Hair06_L
+      position: {x: -0.01919922, y: -0.0000000010896474, z: -0.000000008940696}
+      rotation: {x: 0.000000031538953, y: 0.000000044703484, z: 0.000000010747904, w: 1}
+      scale: {x: 1.0000033, y: 1.0000035, z: 1.0000012}
+    - name: nhocBeo_rig_game_low:Hair06End_L_end
+      parentName: nhocBeo_rig_game_low:Hair06End_L
+      position: {x: -0, y: 0.019199219, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Hair01_L
+      parentName: nhocBeo_rig_game_low:Head_M
+      position: {x: -0.08259781, y: -0.012100464, z: 0.05320008}
+      rotation: {x: 0.9748556, y: -0.029922808, z: 0.19497773, w: -0.10365787}
+      scale: {x: 1.000006, y: 1.000003, z: 1.0000038}
+    - name: nhocBeo_rig_game_low:Hair02_L
+      parentName: nhocBeo_rig_game_low:Hair01_L
+      position: {x: 0.015247946, y: -0.0000000017881393, z: -0.000000011920928}
+      rotation: {x: 0.00000006705522, y: -0.059066407, z: -0.0000002942979, w: 0.99825406}
+      scale: {x: 1.00001, y: 1.0000091, z: 1.0000095}
+    - name: nhocBeo_rig_game_low:Hair03_L
+      parentName: nhocBeo_rig_game_low:Hair02_L
+      position: {x: 0.011792879, y: -0.000000004172325, z: -0.000000023841856}
+      rotation: {x: -0.000000019183075, y: 0.08572953, z: -0.0000002712953, w: -0.9963185}
+      scale: {x: 1.0000039, y: 1.0000045, z: 1.0000044}
+    - name: nhocBeo_rig_game_low:HairEnd_L
+      parentName: nhocBeo_rig_game_low:Hair03_L
+      position: {x: 0.012538179, y: -0.0000000023841857, z: -0.000000014305114}
+      rotation: {x: 0.000000092773845, y: -0.000000052154054, z: 0.000000016576864, w: 1}
+      scale: {x: 1.0000062, y: 1.0000019, z: 1.0000045}
+    - name: nhocBeo_rig_game_low:HairEnd_L_end
+      parentName: nhocBeo_rig_game_low:HairEnd_L
+      position: {x: -0, y: 0.012538128, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:FaceJoint_M
+      parentName: nhocBeo_rig_game_low:Head_M
+      position: {x: 0.00021270901, y: 0.012615987, z: 0.000000001238659}
+      rotation: {x: -0.49576738, y: 0.50419724, z: 0.49576738, w: 0.5041971}
+      scale: {x: 1.0000026, y: 1.0000004, z: 1.0000005}
+    - name: nhocBeo_rig_game_low:EyeJoint_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.025244119, y: 0.03520949, z: 0.01604212}
+      rotation: {x: -0, y: 0.03771491, z: -0.000000029802319, w: 0.99928856}
+      scale: {x: 1.0000011, y: 1.0000007, z: 1.0000013}
+    - name: nhocBeo_rig_game_low:EyeJoint_R_end
+      parentName: nhocBeo_rig_game_low:EyeJoint_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:EyeJoint_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.025244119, y: 0.035209488, z: 0.016042126}
+      rotation: {x: -0.000000029802315, y: -0.03771495, z: -0.00000007450579, w: 0.99928856}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000018}
+    - name: nhocBeo_rig_game_low:EyeJoint_L_end
+      parentName: nhocBeo_rig_game_low:EyeJoint_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain0_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.012110455, y: 0.030800039, z: 0.032409776}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain0_R_end
+      parentName: nhocBeo_rig_game_low:upperLidMain0_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain1_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.0123441685, y: 0.034972344, z: 0.032681692}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain1_R_end
+      parentName: nhocBeo_rig_game_low:upperLidMain1_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain2_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.014838861, y: 0.039354607, z: 0.033279493}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain2_R_end
+      parentName: nhocBeo_rig_game_low:upperLidMain2_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain3_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.018922793, y: 0.043325175, z: 0.03347607}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain3_R_end
+      parentName: nhocBeo_rig_game_low:upperLidMain3_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain4_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.026044251, y: 0.046221443, z: 0.032776363}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain4_R_end
+      parentName: nhocBeo_rig_game_low:upperLidMain4_R
+      position: {x: -0, y: 0.056058634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain5_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.034881163, y: 0.0469499, z: 0.03066401}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain5_R_end
+      parentName: nhocBeo_rig_game_low:upperLidMain5_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain6_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.037952505, y: 0.0454893, z: 0.029772157}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain6_R_end
+      parentName: nhocBeo_rig_game_low:upperLidMain6_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain7_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.041084003, y: 0.041702773, z: 0.028525604}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain7_R_end
+      parentName: nhocBeo_rig_game_low:upperLidMain7_R
+      position: {x: -0, y: 0.056058634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain8_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.041923545, y: 0.038003437, z: 0.027946195}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain8_R_end
+      parentName: nhocBeo_rig_game_low:upperLidMain8_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain9_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.0417159, y: 0.035161793, z: 0.028453559}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain9_R_end
+      parentName: nhocBeo_rig_game_low:upperLidMain9_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter0_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.007914172, y: 0.029934637, z: 0.032321468}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter0_R_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter0_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter1_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.008033746, y: 0.03671889, z: 0.03314435}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter1_R_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter1_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter2_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.010284447, y: 0.04325348, z: 0.034789365}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter2_R_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter2_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter3_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.015039202, y: 0.049319662, z: 0.036575504}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter3_R_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter3_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter4_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.02465221, y: 0.053545043, z: 0.03784017}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter4_R_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter4_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter5_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.036213826, y: 0.054280758, z: 0.035693567}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter5_R_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter5_R
+      position: {x: -0, y: 0.056058634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter6_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.04063244, y: 0.052545704, z: 0.03337791}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter6_R_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter6_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter7_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.04546275, y: 0.04744323, z: 0.029087296}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter7_R_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter7_R
+      position: {x: -0, y: 0.056058634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter8_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.04872622, y: 0.040099643, z: 0.025873264}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter8_R_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter8_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter9_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.051046476, y: 0.033149846, z: 0.025396155}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter9_R_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter9_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidMain1_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.013574926, y: 0.029378312, z: 0.032609694}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidMain1_R_end
+      parentName: nhocBeo_rig_game_low:lowerLidMain1_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidMain2_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.017585902, y: 0.028159222, z: 0.033868667}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidMain2_R_end
+      parentName: nhocBeo_rig_game_low:lowerLidMain2_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidMain3_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.02183711, y: 0.02776997, z: 0.035293553}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidMain3_R_end
+      parentName: nhocBeo_rig_game_low:lowerLidMain3_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidMain4_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.0293471, y: 0.02829799, z: 0.036763474}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidMain4_R_end
+      parentName: nhocBeo_rig_game_low:lowerLidMain4_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidMain5_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.037565835, y: 0.03054199, z: 0.033004835}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidMain5_R_end
+      parentName: nhocBeo_rig_game_low:lowerLidMain5_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidMain6_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.04092438, y: 0.0333463, z: 0.02962686}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidMain6_R_end
+      parentName: nhocBeo_rig_game_low:lowerLidMain6_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidOuter1_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.00917174, y: 0.02676911, z: 0.03267188}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidOuter1_R_end
+      parentName: nhocBeo_rig_game_low:lowerLidOuter1_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidOuter2_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.012699775, y: 0.02463324, z: 0.033776198}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidOuter2_R_end
+      parentName: nhocBeo_rig_game_low:lowerLidOuter2_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidOuter3_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.019967789, y: 0.022539005, z: 0.036282834}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidOuter3_R_end
+      parentName: nhocBeo_rig_game_low:lowerLidOuter3_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidOuter4_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.03086627, y: 0.019882232, z: 0.041371517}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidOuter4_R_end
+      parentName: nhocBeo_rig_game_low:lowerLidOuter4_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidOuter5_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.045683578, y: 0.022598919, z: 0.035666205}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidOuter5_R_end
+      parentName: nhocBeo_rig_game_low:lowerLidOuter5_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidOuter6_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.05138432, y: 0.027808616, z: 0.028014144}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidOuter6_R_end
+      parentName: nhocBeo_rig_game_low:lowerLidOuter6_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain0_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.012110447, y: 0.030800045, z: 0.032409783}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain0_L_end
+      parentName: nhocBeo_rig_game_low:upperLidMain0_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain1_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.012344167, y: 0.034972336, z: 0.03268168}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain1_L_end
+      parentName: nhocBeo_rig_game_low:upperLidMain1_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain2_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.0148388585, y: 0.039354622, z: 0.0332795}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain2_L_end
+      parentName: nhocBeo_rig_game_low:upperLidMain2_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain3_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.018922789, y: 0.043325175, z: 0.03347607}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain3_L_end
+      parentName: nhocBeo_rig_game_low:upperLidMain3_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain4_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.026044246, y: 0.04622146, z: 0.03277636}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain4_L_end
+      parentName: nhocBeo_rig_game_low:upperLidMain4_L
+      position: {x: -0, y: 0.056058634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain5_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.034881163, y: 0.046949897, z: 0.030664014}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain5_L_end
+      parentName: nhocBeo_rig_game_low:upperLidMain5_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain6_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.037952505, y: 0.045489296, z: 0.029772172}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain6_L_end
+      parentName: nhocBeo_rig_game_low:upperLidMain6_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain7_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.041084003, y: 0.0417028, z: 0.028525613}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain7_L_end
+      parentName: nhocBeo_rig_game_low:upperLidMain7_L
+      position: {x: -0, y: 0.056058634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain8_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.04192354, y: 0.038003433, z: 0.02794621}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain8_L_end
+      parentName: nhocBeo_rig_game_low:upperLidMain8_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidMain9_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.041715898, y: 0.035161793, z: 0.028453566}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidMain9_L_end
+      parentName: nhocBeo_rig_game_low:upperLidMain9_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter0_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.00791417, y: 0.02993462, z: 0.032321464}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter0_L_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter0_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter1_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.008033747, y: 0.03671888, z: 0.033144347}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter1_L_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter1_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter2_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.010284444, y: 0.043253478, z: 0.034789365}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter2_L_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter2_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter3_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.015039204, y: 0.049319666, z: 0.036575504}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter3_L_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter3_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter4_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.0246522, y: 0.053545054, z: 0.03784017}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter4_L_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter4_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter5_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.036213826, y: 0.054280765, z: 0.035693567}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter5_L_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter5_L
+      position: {x: -0, y: 0.056058634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter6_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.040632438, y: 0.052545723, z: 0.03337792}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter6_L_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter6_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter7_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.045462746, y: 0.04744324, z: 0.029087309}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter7_L_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter7_L
+      position: {x: -0, y: 0.056058634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter8_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.048726216, y: 0.04009966, z: 0.025873264}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter8_L_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter8_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLidOuter9_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.051046476, y: 0.033149827, z: 0.025396165}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLidOuter9_L_end
+      parentName: nhocBeo_rig_game_low:upperLidOuter9_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidMain1_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.013574923, y: 0.029378308, z: 0.0326097}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidMain1_L_end
+      parentName: nhocBeo_rig_game_low:lowerLidMain1_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidMain2_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.017585902, y: 0.02815922, z: 0.033868685}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidMain2_L_end
+      parentName: nhocBeo_rig_game_low:lowerLidMain2_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidMain3_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.021837106, y: 0.02776998, z: 0.03529354}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidMain3_L_end
+      parentName: nhocBeo_rig_game_low:lowerLidMain3_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidMain4_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.029347096, y: 0.02829802, z: 0.03676347}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidMain4_L_end
+      parentName: nhocBeo_rig_game_low:lowerLidMain4_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidMain5_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.037565827, y: 0.03054197, z: 0.033004843}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidMain5_L_end
+      parentName: nhocBeo_rig_game_low:lowerLidMain5_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidMain6_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.040924378, y: 0.033346295, z: 0.029626874}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidMain6_L_end
+      parentName: nhocBeo_rig_game_low:lowerLidMain6_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidOuter1_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.009171738, y: 0.026769087, z: 0.032671876}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidOuter1_L_end
+      parentName: nhocBeo_rig_game_low:lowerLidOuter1_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidOuter2_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.012699775, y: 0.02463323, z: 0.033776198}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidOuter2_L_end
+      parentName: nhocBeo_rig_game_low:lowerLidOuter2_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidOuter3_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.019967785, y: 0.022539, z: 0.03628285}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidOuter3_L_end
+      parentName: nhocBeo_rig_game_low:lowerLidOuter3_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidOuter4_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.030866262, y: 0.019882223, z: 0.04137153}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidOuter4_L_end
+      parentName: nhocBeo_rig_game_low:lowerLidOuter4_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidOuter5_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.045683574, y: 0.022598913, z: 0.03566621}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidOuter5_L_end
+      parentName: nhocBeo_rig_game_low:lowerLidOuter5_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLidOuter6_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.05138432, y: 0.027808607, z: 0.02801415}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerLidOuter6_L_end
+      parentName: nhocBeo_rig_game_low:lowerLidOuter6_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:EyeBrowInnerJoint_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.0155770825, y: 0.06281135, z: 0.040747575}
+      rotation: {x: 0.9934361, y: -0.000000059604638, z: -0.11438899, w: 0}
+      scale: {x: 1.0000023, y: 1.0000052, z: 1.0000061}
+    - name: nhocBeo_rig_game_low:EyeBrowInnerJoint_R_end
+      parentName: nhocBeo_rig_game_low:EyeBrowInnerJoint_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:EyeBrowOuterJoint_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.038143735, y: 0.066300735, z: 0.036046833}
+      rotation: {x: 0.9590974, y: -0.000000029802319, z: -0.28307652, w: -0.000000059604638}
+      scale: {x: 1.0000027, y: 1.0000037, z: 1.0000036}
+    - name: nhocBeo_rig_game_low:EyeBrowOuterJoint_R_end
+      parentName: nhocBeo_rig_game_low:EyeBrowOuterJoint_R
+      position: {x: -0, y: 0.056058634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:EyeBrowCenterJoint_M
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.000000003185123, y: 0.061481465, z: 0.041828588}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:EyeBrowCenterJoint_M_end
+      parentName: nhocBeo_rig_game_low:EyeBrowCenterJoint_M
+      position: {x: -0, y: 0.056058634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:EyeBrowInnerJoint_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.015577071, y: 0.06281134, z: 0.040747594}
+      rotation: {x: -0, y: -0.114389166, z: -0.00000005960463, w: 0.993436}
+      scale: {x: 0.99999845, y: 1.0000007, z: 1.0000012}
+    - name: nhocBeo_rig_game_low:EyeBrowInnerJoint_L_end
+      parentName: nhocBeo_rig_game_low:EyeBrowInnerJoint_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:EyeBrowOuterJoint_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.038143724, y: 0.06630071, z: 0.03604684}
+      rotation: {x: -0.000000029802315, y: -0.28307644, z: -0.00000010430811, w: 0.9590973}
+      scale: {x: 0.99999815, y: 1.0000007, z: 1.0000018}
+    - name: nhocBeo_rig_game_low:EyeBrowOuterJoint_L_end
+      parentName: nhocBeo_rig_game_low:EyeBrowOuterJoint_L
+      position: {x: -0, y: 0.056058634, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:LipJoints_M
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 6.984919e-11, y: 0.007894531, z: 0.041818645}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperLipJoint0_M
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: -0.000000004125759, y: 0.0017936561, z: -0.00042978406}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1.0000001}
+    - name: nhocBeo_rig_game_low:upperLipJoint0_M_end
+      parentName: nhocBeo_rig_game_low:upperLipJoint0_M
+      position: {x: -0, y: 0.006276531, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLipJoint1_R
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: 0.0023636834, y: 0.0017309715, z: -0.00078816694}
+      rotation: {x: 0.00034570694, y: 0.12686732, z: -0.025574237, w: 0.99158996}
+      scale: {x: 1.0000014, y: 0.9999991, z: 0.99999934}
+    - name: nhocBeo_rig_game_low:upperLipJoint1_R_end
+      parentName: nhocBeo_rig_game_low:upperLipJoint1_R
+      position: {x: -0, y: 0.0062765223, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLipJoint1_L
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: -0.0023636855, y: 0.0017309798, z: -0.0007881671}
+      rotation: {x: 0.00034564725, y: -0.1268674, z: 0.025574157, w: 0.99158984}
+      scale: {x: 0.99999803, y: 0.99999887, z: 1.0000014}
+    - name: nhocBeo_rig_game_low:upperLipJoint1_L_end
+      parentName: nhocBeo_rig_game_low:upperLipJoint1_L
+      position: {x: -0, y: 0.0062765223, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLipJoint2_R
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: 0.0049037626, y: 0.0015209557, z: -0.0017856202}
+      rotation: {x: -0.001599997, y: 0.19937624, z: -0.05344697, w: 0.9784631}
+      scale: {x: 1.0000018, y: 0.9999987, z: 0.99999934}
+    - name: nhocBeo_rig_game_low:upperLipJoint2_R_end
+      parentName: nhocBeo_rig_game_low:upperLipJoint2_R
+      position: {x: -0, y: 0.0062765256, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLipJoint2_L
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: -0.0049037603, y: 0.0015209703, z: -0.0017856206}
+      rotation: {x: -0.0016000865, y: -0.19937639, z: 0.053446896, w: 0.9784631}
+      scale: {x: 0.999999, y: 0.99999875, z: 1.0000011}
+    - name: nhocBeo_rig_game_low:upperLipJoint2_L_end
+      parentName: nhocBeo_rig_game_low:upperLipJoint2_L
+      position: {x: -0, y: 0.0062765256, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLipJoint3_R
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: 0.009207019, y: 0.00057189626, z: -0.0034623551}
+      rotation: {x: -0.030526556, y: 0.17060526, z: -0.16651015, w: 0.9706886}
+      scale: {x: 1.000004, y: 0.9999984, z: 0.99999833}
+    - name: nhocBeo_rig_game_low:upperLipJoint3_R_end
+      parentName: nhocBeo_rig_game_low:upperLipJoint3_R
+      position: {x: -0, y: 0.0062765246, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperLipJoint3_L
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: -0.0092070205, y: 0.00057189417, z: -0.0034623658}
+      rotation: {x: -0.030526571, y: -0.17060533, z: 0.16651003, w: 0.9706886}
+      scale: {x: 0.99999815, y: 0.99999976, z: 1.000001}
+    - name: nhocBeo_rig_game_low:upperLipJoint3_L_end
+      parentName: nhocBeo_rig_game_low:upperLipJoint3_L
+      position: {x: -0, y: 0.0062765246, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:LipJoint_R
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: 0.010159732, y: 0.0001788922, z: -0.0038492822}
+      rotation: {x: -0.04055501, y: 0.15871301, z: -0.18653518, w: 0.9686951}
+      scale: {x: 1.0000025, y: 0.9999987, z: 0.99999875}
+    - name: nhocBeo_rig_game_low:LipJoint_R_end
+      parentName: nhocBeo_rig_game_low:LipJoint_R
+      position: {x: -0, y: 0.0062765256, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:LipJoint_L
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: -0.010159733, y: 0.00017889736, z: -0.0038492887}
+      rotation: {x: -0.04055508, y: -0.15871307, z: 0.18653518, w: 0.9686951}
+      scale: {x: 0.99999934, y: 1.0000002, z: 1.0000024}
+    - name: nhocBeo_rig_game_low:LipJoint_L_end
+      parentName: nhocBeo_rig_game_low:LipJoint_L
+      position: {x: -0, y: 0.0062765256, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLipJoint0_M
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: -0.0000000058766454, y: -0.0009218139, z: -0.00091369776}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1.0000001}
+    - name: nhocBeo_rig_game_low:lowerLipJoint0_M_end
+      parentName: nhocBeo_rig_game_low:lowerLipJoint0_M
+      position: {x: -0, y: 0.006276531, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLipJoint1_R
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: 0.00253041, y: -0.00087429886, z: -0.0013796692}
+      rotation: {x: -0.00015871227, y: 0.12165512, z: 0.018280387, w: 0.9924041}
+      scale: {x: 1.000001, y: 0.9999997, z: 0.99999917}
+    - name: nhocBeo_rig_game_low:lowerLipJoint1_R_end
+      parentName: nhocBeo_rig_game_low:lowerLipJoint1_R
+      position: {x: -0, y: 0.0062765297, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLipJoint1_L
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: -0.0025304125, y: -0.0008742979, z: -0.0013796708}
+      rotation: {x: -0.00015869735, y: -0.12165521, z: -0.01828052, w: 0.99240404}
+      scale: {x: 0.9999986, y: 0.99999994, z: 0.9999999}
+    - name: nhocBeo_rig_game_low:lowerLipJoint1_L_end
+      parentName: nhocBeo_rig_game_low:lowerLipJoint1_L
+      position: {x: -0, y: 0.0062765297, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLipJoint2_R
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: 0.0059374385, y: -0.0006480213, z: -0.0025131293}
+      rotation: {x: 0.002941832, y: 0.18322073, z: 0.04810199, w: 0.98188996}
+      scale: {x: 1.0000014, y: 0.9999997, z: 0.9999985}
+    - name: nhocBeo_rig_game_low:lowerLipJoint2_R_end
+      parentName: nhocBeo_rig_game_low:lowerLipJoint2_R
+      position: {x: -0, y: 0.0062765405, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLipJoint2_L
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: -0.005937442, y: -0.0006479951, z: -0.0025131302}
+      rotation: {x: 0.002941757, y: -0.18322082, z: -0.048102193, w: 0.98188984}
+      scale: {x: 0.9999975, y: 1.0000006, z: 1.0000008}
+    - name: nhocBeo_rig_game_low:lowerLipJoint2_L_end
+      parentName: nhocBeo_rig_game_low:lowerLipJoint2_L
+      position: {x: -0, y: 0.0062765405, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLipJoint3_R
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: 0.009263999, y: -0.000063203566, z: -0.0036585985}
+      rotation: {x: 0.020060489, y: 0.12575895, z: 0.12055421, w: 0.9845044}
+      scale: {x: 0.9999993, y: 1.0000013, z: 0.99999905}
+    - name: nhocBeo_rig_game_low:lowerLipJoint3_R_end
+      parentName: nhocBeo_rig_game_low:lowerLipJoint3_R
+      position: {x: -0, y: 0.006276528, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerLipJoint3_L
+      parentName: nhocBeo_rig_game_low:LipJoints_M
+      position: {x: -0.009264003, y: -0.000063213614, z: -0.0036586027}
+      rotation: {x: 0.020060444, y: -0.12575911, z: -0.12055427, w: 0.9845044}
+      scale: {x: 1.0000001, y: 0.9999988, z: 1.0000015}
+    - name: nhocBeo_rig_game_low:lowerLipJoint3_L_end
+      parentName: nhocBeo_rig_game_low:lowerLipJoint3_L
+      position: {x: -0, y: 0.006276528, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:SmileBulgeJoint_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.01679076, y: 0.014053162, z: 0.037633635}
+      rotation: {x: 0.99165, y: -0.000000029802319, z: -0.12895906, w: 0.000000014901159}
+      scale: {x: 1.0000012, y: 1.0000055, z: 1.0000063}
+    - name: nhocBeo_rig_game_low:SmileBulgeJoint_R_end
+      parentName: nhocBeo_rig_game_low:SmileBulgeJoint_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:FrownBulgeJoint_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.019603439, y: 0.0027794284, z: 0.03739058}
+      rotation: {x: 0.9886117, y: -0.00000008940697, z: -0.15048929, w: 0.00000014901161}
+      scale: {x: 1.0000015, y: 1.0000055, z: 1.000005}
+    - name: nhocBeo_rig_game_low:FrownBulgeJoint_R_end
+      parentName: nhocBeo_rig_game_low:FrownBulgeJoint_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:SmileBulgeJoint_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.016790757, y: 0.014053158, z: 0.037633635}
+      rotation: {x: -0.00000008940696, y: -0.12895913, z: -0.000000059604638, w: 0.9916499}
+      scale: {x: 0.9999987, y: 1.0000007, z: 1.0000011}
+    - name: nhocBeo_rig_game_low:SmileBulgeJoint_L_end
+      parentName: nhocBeo_rig_game_low:SmileBulgeJoint_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:FrownBulgeJoint_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.019603431, y: 0.0027794226, z: 0.037390582}
+      rotation: {x: -0.00000014901161, y: -0.15048937, z: -0.000000029802322, w: 0.9886117}
+      scale: {x: 0.999999, y: 1.0000007, z: 1.0000023}
+    - name: nhocBeo_rig_game_low:FrownBulgeJoint_L_end
+      parentName: nhocBeo_rig_game_low:FrownBulgeJoint_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:CheekRaiserJoint_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.030866269, y: 0.019882232, z: 0.041371517}
+      rotation: {x: 0.99779487, y: -0.00000008940696, z: -0.06637352, w: -0.000000029802319}
+      scale: {x: 1.0000011, y: 1.0000112, z: 1.0000057}
+    - name: nhocBeo_rig_game_low:CheekRaiserJoint_R_end
+      parentName: nhocBeo_rig_game_low:CheekRaiserJoint_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:CheekRaiserJoint_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.03086626, y: 0.019882223, z: 0.04137153}
+      rotation: {x: -0.000000089406946, y: -0.06637356, z: -0, w: 0.99779487}
+      scale: {x: 1, y: 1.0000007, z: 1.0000015}
+    - name: nhocBeo_rig_game_low:CheekRaiserJoint_L_end
+      parentName: nhocBeo_rig_game_low:CheekRaiserJoint_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:CheekJoint_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.049074676, y: 0.0027659119, z: 0.027085783}
+      rotation: {x: 0.9197947, y: -0.000000029802319, z: -0.39239994, w: -0.00000008940696}
+      scale: {x: 1.0000017, y: 0.99999756, z: 0.99999803}
+    - name: nhocBeo_rig_game_low:CheekJoint_R_end
+      parentName: nhocBeo_rig_game_low:CheekJoint_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:CheekJoint_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.049074672, y: 0.0027659046, z: 0.027085789}
+      rotation: {x: -0, y: -0.39240012, z: -0.000000119209275, w: 0.9197946}
+      scale: {x: 0.99999934, y: 1.0000007, z: 1.0000033}
+    - name: nhocBeo_rig_game_low:CheekJoint_L_end
+      parentName: nhocBeo_rig_game_low:CheekJoint_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:JawJoint_M
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.0000000032735987, y: 0.024718584, z: -0.008620097}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:JawJoint_M_end
+      parentName: nhocBeo_rig_game_low:JawJoint_M
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:upperTeethJoint_M
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.0000000036507843, y: 0.010418881, z: 0.0266791}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:upperTeethJoint_M_end
+      parentName: nhocBeo_rig_game_low:upperTeethJoint_M
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:lowerTeethJoint_M
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 6.7520883e-10, y: 0.006510835, z: 0.026254036}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:lowerTeethJoint_M_end
+      parentName: nhocBeo_rig_game_low:lowerTeethJoint_M
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:NoseJoint_M
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.0000000076275315, y: 0.020618074, z: 0.04417181}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:NoseJoint_M_end
+      parentName: nhocBeo_rig_game_low:NoseJoint_M
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:NoseCornerJoint_R
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: 0.00792847, y: 0.019577447, z: 0.03626785}
+      rotation: {x: 0.9980091, y: -0.000000029802319, z: -0.063071124, w: -0.00000004470348}
+      scale: {x: 1.0000006, y: 1.000009, z: 1.000009}
+    - name: nhocBeo_rig_game_low:NoseCornerJoint_R_end
+      parentName: nhocBeo_rig_game_low:NoseCornerJoint_R
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:NoseCornerJoint_L
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.007928471, y: 0.019577438, z: 0.03626784}
+      rotation: {x: -0, y: -0.063071094, z: -0.000000059604638, w: 0.9980091}
+      scale: {x: 0.9999995, y: 1.0000007, z: 1.0000007}
+    - name: nhocBeo_rig_game_low:NoseCornerJoint_L_end
+      parentName: nhocBeo_rig_game_low:NoseCornerJoint_L
+      position: {x: -0, y: 0.056058653, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Tongue0Joint_M
+      parentName: nhocBeo_rig_game_low:FaceJoint_M
+      position: {x: -0.0000000044470654, y: 0.006611689, z: 0.0021974095}
+      rotation: {x: 0.00000001664701, y: 0.7071067, z: -0.000000059604638, w: 0.7071069}
+      scale: {x: 0.9999992, y: 1.0000007, z: 0.9999987}
+    - name: nhocBeo_rig_game_low:Tongue1Joint_M
+      parentName: nhocBeo_rig_game_low:Tongue0Joint_M
+      position: {x: -0.007861808, y: -0.0000000025553162, z: 6.239861e-10}
+      rotation: {x: 6.4514954e-10, y: 0.00000011920926, z: -0.00000004150169, w: 1}
+      scale: {x: 1.0000033, y: 0.9999994, z: 1.000004}
+    - name: nhocBeo_rig_game_low:Tongue2Joint_M
+      parentName: nhocBeo_rig_game_low:Tongue1Joint_M
+      position: {x: -0.007528074, y: -0.00000004310801, z: 0.000000009131617}
+      rotation: {x: -0, y: -0, z: -7.69078e-17, w: 1}
+      scale: {x: 1.0000005, y: 1, z: 0.99999976}
+    - name: nhocBeo_rig_game_low:Tongue3Joint_M
+      parentName: nhocBeo_rig_game_low:Tongue2Joint_M
+      position: {x: -0.0069162105, y: -0.000000020609004, z: 0.000000002514571}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:Tongue3Joint_M_end
+      parentName: nhocBeo_rig_game_low:Tongue3Joint_M
+      position: {x: -0, y: 0.0069162175, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Scapula_R
+      parentName: nhocBeo_rig_game_low:Chest_M
+      position: {x: -0.017155444, y: -0.003393907, z: -0.031240243}
+      rotation: {x: 0.15070215, y: 0.68082047, z: 0.14768162, w: -0.7014004}
+      scale: {x: 1.0000088, y: 1.000004, z: 1.0000024}
+    - name: nhocBeo_rig_game_low:Shoulder_R
+      parentName: nhocBeo_rig_game_low:Scapula_R
+      position: {x: -0.024506427, y: 0.000000016093253, z: -0.000000022649765}
+      rotation: {x: 0.22780842, y: -0.005611449, z: 0.046159197, w: 0.97259504}
+      scale: {x: 0.9999914, y: 1.0000007, z: 0.99999434}
+    - name: nhocBeo_rig_game_low:ShoulderPart1_R
+      parentName: nhocBeo_rig_game_low:Shoulder_R
+      position: {x: -0.021314733, y: 0.000000017881392, z: 0}
+      rotation: {x: -0.00000023841858, y: -0.0030940184, z: -0.007016464, w: 0.9999706}
+      scale: {x: 1.0000083, y: 1, z: 1.0000035}
+    - name: nhocBeo_rig_game_low:Elbow_R
+      parentName: nhocBeo_rig_game_low:ShoulderPart1_R
+      position: {x: -0.021314742, y: 0.000000013113022, z: -0.000000026226044}
+      rotation: {x: -0.0008473127, y: -0.0076615075, z: -0.07655714, w: 0.9970354}
+      scale: {x: 1.0000076, y: 1.0000097, z: 1.0000064}
+    - name: nhocBeo_rig_game_low:ElbowPart1_R
+      parentName: nhocBeo_rig_game_low:Elbow_R
+      position: {x: -0.016265988, y: 0.0000000035762786, z: -2.9802322e-10}
+      rotation: {x: 0.00000004576332, y: -0.0000000071203172, z: -0.000000052154064, w: 1}
+      scale: {x: 1.0000124, y: 1.0000042, z: 1.0000046}
+    - name: nhocBeo_rig_game_low:Wrist_R
+      parentName: nhocBeo_rig_game_low:ElbowPart1_R
+      position: {x: -0.016265946, y: 0.000000014305114, z: 0.000000002980232}
+      rotation: {x: -0.085978866, y: -0.024527162, z: 0.029873414, w: 0.9955469}
+      scale: {x: 0.99999833, y: 0.99999845, z: 1.000001}
+    - name: nhocBeo_rig_game_low:MiddleFinger1_R
+      parentName: nhocBeo_rig_game_low:Wrist_R
+      position: {x: -0.021416392, y: 0.000000009536743, z: -0.0000000023841857}
+      rotation: {x: -0.0066119283, y: -0.022147939, z: 0.031745486, w: 0.9992287}
+      scale: {x: 1.0000114, y: 1.0000081, z: 1.0000064}
+    - name: nhocBeo_rig_game_low:MiddleFinger2_R
+      parentName: nhocBeo_rig_game_low:MiddleFinger1_R
+      position: {x: -0.006670178, y: -0.00000002503395, z: 0.000000005960464}
+      rotation: {x: 0.00025986458, y: 0.003322882, z: 0.00028565715, w: 0.99999446}
+      scale: {x: 1.000014, y: 1.0000058, z: 1.0000042}
+    - name: nhocBeo_rig_game_low:MiddleFinger3_R
+      parentName: nhocBeo_rig_game_low:MiddleFinger2_R
+      position: {x: -0.004094119, y: -0.0000000011920929, z: 0.0000000047683715}
+      rotation: {x: 0.0006849428, y: -0.011896562, z: -0.0010295626, w: 0.9999285}
+      scale: {x: 1.0000147, y: 1.0000106, z: 1.0000112}
+    - name: nhocBeo_rig_game_low:MiddleFinger4_R
+      parentName: nhocBeo_rig_game_low:MiddleFinger3_R
+      position: {x: -0.004472606, y: 0.000000007152557, z: 0.000000007152557}
+      rotation: {x: -0.000000031141088, y: -0.000000081025036, z: 0.00000005754098, w: 1}
+      scale: {x: 1.0000113, y: 1.0000037, z: 1.0000042}
+    - name: nhocBeo_rig_game_low:MiddleFinger4_R_end
+      parentName: nhocBeo_rig_game_low:MiddleFinger4_R
+      position: {x: -0, y: 0.0044725994, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:ThumbFinger1_R
+      parentName: nhocBeo_rig_game_low:Wrist_R
+      position: {x: -0.0015641403, y: 0.00594064, z: -0.0007393002}
+      rotation: {x: -0.40492344, y: 0.10656757, z: -0.3457126, w: 0.83974}
+      scale: {x: 1.0000167, y: 1.0000045, z: 1.0000079}
+    - name: nhocBeo_rig_game_low:ThumbFinger2_R
+      parentName: nhocBeo_rig_game_low:ThumbFinger1_R
+      position: {x: -0.007291236, y: 0, z: 0.000000012516975}
+      rotation: {x: 0.000000029802315, y: 0.0000003129243, z: -0.00000020116563, w: 1}
+      scale: {x: 1.000002, y: 1.0000027, z: 0.9999989}
+    - name: nhocBeo_rig_game_low:ThumbFinger3_R
+      parentName: nhocBeo_rig_game_low:ThumbFinger2_R
+      position: {x: -0.009668064, y: -0.000000021755694, z: -0.000000019669532}
+      rotation: {x: 0.00219535, y: 0.03825512, z: 0.0012571171, w: 0.9992648}
+      scale: {x: 1.0000098, y: 1.0000094, z: 0.99999905}
+    - name: nhocBeo_rig_game_low:ThumbFinger4_R
+      parentName: nhocBeo_rig_game_low:ThumbFinger3_R
+      position: {x: -0.0060628424, y: -0.0000000080466265, z: 0.000000008940696}
+      rotation: {x: 0.0000000228174, y: -0.00000017881392, z: 0.00000006296613, w: 1}
+      scale: {x: 1.0000075, y: 1.0000105, z: 1.0000021}
+    - name: nhocBeo_rig_game_low:ThumbFinger4_R_end
+      parentName: nhocBeo_rig_game_low:ThumbFinger4_R
+      position: {x: -0, y: 0.0060628313, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:IndexFinger1_R
+      parentName: nhocBeo_rig_game_low:Wrist_R
+      position: {x: -0.021417495, y: 0.0056349942, z: -0.000013239383}
+      rotation: {x: 0.024203023, y: -0.0309871, z: 0.040689867, w: 0.9983979}
+      scale: {x: 1.0000091, y: 1.0000074, z: 1.000005}
+    - name: nhocBeo_rig_game_low:IndexFinger2_R
+      parentName: nhocBeo_rig_game_low:IndexFinger1_R
+      position: {x: -0.005468143, y: 0.000000030994414, z: 0.000000002682209}
+      rotation: {x: -0.062955216, y: 0.012415171, z: 0.0014163612, w: 0.99793816}
+      scale: {x: 1.0000098, y: 1.0000031, z: 1.0000037}
+    - name: nhocBeo_rig_game_low:IndexFinger3_R
+      parentName: nhocBeo_rig_game_low:IndexFinger2_R
+      position: {x: -0.003500927, y: -0.000000011920928, z: 0.000000014305114}
+      rotation: {x: 0.017842798, y: -0.012336016, z: -0.001976773, w: 0.9997628}
+      scale: {x: 1.0000181, y: 1.0000064, z: 1.0000061}
+    - name: nhocBeo_rig_game_low:IndexFinger4_R
+      parentName: nhocBeo_rig_game_low:IndexFinger3_R
+      position: {x: -0.0037111687, y: -0.000000011920928, z: -0.000000009536743}
+      rotation: {x: 0.000000011175868, y: 0.0000000037252894, z: 0.000000040978183, w: 1}
+      scale: {x: 1.000012, y: 1.0000045, z: 1.0000062}
+    - name: nhocBeo_rig_game_low:IndexFinger4_R_end
+      parentName: nhocBeo_rig_game_low:IndexFinger4_R
+      position: {x: -0, y: 0.0037111682, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:RingFinger1_R
+      parentName: nhocBeo_rig_game_low:Wrist_R
+      position: {x: -0.021361046, y: -0.005028963, z: -0.0007745361}
+      rotation: {x: -0.029241819, y: -0.012407353, z: 0.036884684, w: 0.9988146}
+      scale: {x: 1.000013, y: 1.0000082, z: 1.000007}
+    - name: nhocBeo_rig_game_low:RingFinger2_R
+      parentName: nhocBeo_rig_game_low:RingFinger1_R
+      position: {x: -0.0056333677, y: 0.000000011920928, z: -0.0000000047683715}
+      rotation: {x: 0.017644394, y: 0.0008333009, z: 0.00008570275, w: 0.999844}
+      scale: {x: 1.0000129, y: 1.000008, z: 1.000002}
+    - name: nhocBeo_rig_game_low:RingFinger3_R
+      parentName: nhocBeo_rig_game_low:RingFinger2_R
+      position: {x: -0.00443014, y: 0.000000019073486, z: -0.000000019669532}
+      rotation: {x: 0.0031628548, y: 0.022253651, z: 0.0018321206, w: 0.99974567}
+      scale: {x: 1.000008, y: 1.0000091, z: 1.0000069}
+    - name: nhocBeo_rig_game_low:RingFinger4_R
+      parentName: nhocBeo_rig_game_low:RingFinger3_R
+      position: {x: -0.004141595, y: 0.00000000834465, z: 0.0000000023841857}
+      rotation: {x: 0.000000014668329, y: 0.000000029802319, z: 0.00000001175067, w: 1}
+      scale: {x: 1.0000057, y: 1.0000049, z: 1.0000012}
+    - name: nhocBeo_rig_game_low:RingFinger4_R_end
+      parentName: nhocBeo_rig_game_low:RingFinger4_R
+      position: {x: -0, y: 0.0041416185, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:PinkyFinger1_R
+      parentName: nhocBeo_rig_game_low:Wrist_R
+      position: {x: -0.020312743, y: -0.010291283, z: -0.0018268394}
+      rotation: {x: -0.04532675, y: 0.017238826, z: 0.027089903, w: 0.99845606}
+      scale: {x: 1.000009, y: 1.0000077, z: 1.0000076}
+    - name: nhocBeo_rig_game_low:PinkyFinger2_R
+      parentName: nhocBeo_rig_game_low:PinkyFinger1_R
+      position: {x: -0.0049524996, y: 0.000000028610229, z: 0.0000000047683715}
+      rotation: {x: 0.0023662895, y: 0.00000047683716, z: -0.00000069709495, w: 0.9999972}
+      scale: {x: 1.0000079, y: 0.9999995, z: 1.0000008}
+    - name: nhocBeo_rig_game_low:PinkyFinger3_R
+      parentName: nhocBeo_rig_game_low:PinkyFinger2_R
+      position: {x: -0.0027580976, y: -0.000000030994414, z: -0.000000017881392}
+      rotation: {x: 0.01962578, y: -0.0000011532197, z: 0.0000011628963, w: 0.9998074}
+      scale: {x: 0.99999624, y: 0.99999964, z: 0.9999995}
+    - name: nhocBeo_rig_game_low:PinkyFinger4_R
+      parentName: nhocBeo_rig_game_low:PinkyFinger3_R
+      position: {x: -0.0032576027, y: 0.000000017881392, z: -0.000000005960464}
+      rotation: {x: 0.00000006891787, y: 0.0000016051158, z: -0.0000013948434, w: 1}
+      scale: {x: 1.0000081, y: 1.0000055, z: 1.0000055}
+    - name: nhocBeo_rig_game_low:PinkyFinger4_R_end
+      parentName: nhocBeo_rig_game_low:PinkyFinger4_R
+      position: {x: -0, y: 0.0032576197, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Scapula_L
+      parentName: nhocBeo_rig_game_low:Chest_M
+      position: {x: -0.017155467, y: -0.0033939076, z: 0.031240238}
+      rotation: {x: -0.68082064, y: 0.15070218, z: -0.7014002, w: -0.14768164}
+      scale: {x: 1.0000031, y: 0.99999833, z: 1.0000006}
+    - name: nhocBeo_rig_game_low:Shoulder_L
+      parentName: nhocBeo_rig_game_low:Scapula_L
+      position: {x: 0.024506424, y: -0.0000000011920929, z: 0.0000000035762786}
+      rotation: {x: -0.22780843, y: 0.005611303, z: -0.04615916, w: -0.9725951}
+      scale: {x: 0.9999959, y: 0.99999946, z: 0.9999966}
+    - name: nhocBeo_rig_game_low:ShoulderPart1_L
+      parentName: nhocBeo_rig_game_low:Shoulder_L
+      position: {x: 0.021314733, y: 0.000000008791685, z: 0.000000011920928}
+      rotation: {x: -0.00000023841852, y: -0.003109825, z: -0.007057168, w: 0.99997026}
+      scale: {x: 1.0000001, y: 0.9999993, z: 1.0000024}
+    - name: nhocBeo_rig_game_low:Elbow_L
+      parentName: nhocBeo_rig_game_low:ShoulderPart1_L
+      position: {x: 0.021314733, y: 0.000000027418135, z: 0.000000014305114}
+      rotation: {x: -0.00084663095, y: -0.007656059, z: -0.076558895, w: 0.9970354}
+      scale: {x: 1.0000008, y: 1.0000046, z: 0.9999993}
+    - name: nhocBeo_rig_game_low:ElbowPart1_L
+      parentName: nhocBeo_rig_game_low:Elbow_L
+      position: {x: 0.016265988, y: -0.000000009536743, z: 0.0000000047683715}
+      rotation: {x: 0.000000013512176, y: -0.00000012218975, z: -0.000000052154068, w: 1}
+      scale: {x: 1.0000039, y: 1.0000027, z: 1.000005}
+    - name: nhocBeo_rig_game_low:Wrist_L
+      parentName: nhocBeo_rig_game_low:ElbowPart1_L
+      position: {x: 0.01626598, y: 0.000000019073486, z: 0.000000019073486}
+      rotation: {x: 0.08597881, y: 0.024527283, z: -0.029873503, w: -0.99554694}
+      scale: {x: 1.0000036, y: 1.0000076, z: 0.9999978}
+    - name: nhocBeo_rig_game_low:MiddleFinger1_L
+      parentName: nhocBeo_rig_game_low:Wrist_L
+      position: {x: 0.0214164, y: 0.000000009536743, z: 0.000000014305114}
+      rotation: {x: -0.0066119344, y: -0.02214822, z: 0.031745452, w: 0.9992288}
+      scale: {x: 1.0000196, y: 1.0000095, z: 1.0000095}
+    - name: nhocBeo_rig_game_low:MiddleFinger2_L
+      parentName: nhocBeo_rig_game_low:MiddleFinger1_L
+      position: {x: 0.0066701802, y: -0.0000000166893, z: -0.0000000047683715}
+      rotation: {x: 0.00025979977, y: 0.0033230113, z: 0.00028560372, w: 0.9999944}
+      scale: {x: 1.0000135, y: 1.0000062, z: 1.000006}
+    - name: nhocBeo_rig_game_low:MiddleFinger3_L
+      parentName: nhocBeo_rig_game_low:MiddleFinger2_L
+      position: {x: 0.004094133, y: -0.000000005960464, z: -0.000000019073486}
+      rotation: {x: 0.00068490976, y: -0.011895508, z: -0.0010295156, w: 0.9999285}
+      scale: {x: 1.0000054, y: 1.0000033, z: 1.0000017}
+    - name: nhocBeo_rig_game_low:MiddleFinger4_L
+      parentName: nhocBeo_rig_game_low:MiddleFinger3_L
+      position: {x: 0.004472605, y: -0.0000000035762786, z: -0.000000011920928}
+      rotation: {x: -0.000000007566993, y: 0.000000003725289, z: -0.000000014644678, w: 1}
+      scale: {x: 1.000006, y: 1.0000004, z: 1.0000046}
+    - name: nhocBeo_rig_game_low:MiddleFinger4_L_end
+      parentName: nhocBeo_rig_game_low:MiddleFinger4_L
+      position: {x: -0, y: 0.0044726, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:ThumbFinger1_L
+      parentName: nhocBeo_rig_game_low:Wrist_L
+      position: {x: 0.0015641546, y: -0.0059406445, z: 0.00073931215}
+      rotation: {x: -0.40492374, y: 0.10656581, z: -0.34571162, w: 0.83974046}
+      scale: {x: 1.0000111, y: 1.0000031, z: 1.0000079}
+    - name: nhocBeo_rig_game_low:ThumbFinger2_L
+      parentName: nhocBeo_rig_game_low:ThumbFinger1_L
+      position: {x: 0.007291269, y: 0.000000019073486, z: -0.000000009536743}
+      rotation: {x: 0.00000014901163, y: 0.000000044703487, z: 0.0000003576279, w: 1}
+      scale: {x: 1.0000035, y: 0.99999994, z: 0.9999996}
+    - name: nhocBeo_rig_game_low:ThumbFinger3_L
+      parentName: nhocBeo_rig_game_low:ThumbFinger2_L
+      position: {x: 0.0096680755, y: 0.000000020414591, z: 0.0000000023841857}
+      rotation: {x: 0.0021943578, y: 0.038255613, z: 0.001257164, w: 0.99926484}
+      scale: {x: 0.9999987, y: 1.0000013, z: 1.0000091}
+    - name: nhocBeo_rig_game_low:ThumbFinger4_L
+      parentName: nhocBeo_rig_game_low:ThumbFinger3_L
+      position: {x: 0.0060628536, y: 0.0000000038743018, z: 0.000000004954636}
+      rotation: {x: 0.00000007590279, y: 0.00000017136335, z: -0.00000014601392, w: 1}
+      scale: {x: 0.99999577, y: 0.9999991, z: 0.99999714}
+    - name: nhocBeo_rig_game_low:ThumbFinger4_L_end
+      parentName: nhocBeo_rig_game_low:ThumbFinger4_L
+      position: {x: -0, y: 0.0060628513, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:IndexFinger1_L
+      parentName: nhocBeo_rig_game_low:Wrist_L
+      position: {x: 0.021417495, y: -0.0056350017, z: 0.000013251304}
+      rotation: {x: -0.024202975, y: 0.030986505, z: -0.04068947, w: -0.99839795}
+      scale: {x: 1.0000181, y: 1.0000098, z: 1.000004}
+    - name: nhocBeo_rig_game_low:IndexFinger2_L
+      parentName: nhocBeo_rig_game_low:IndexFinger1_L
+      position: {x: 0.0054681376, y: 0.000000007152557, z: -0.000000013709068}
+      rotation: {x: 0.06295522, y: -0.0124138035, z: -0.0014167025, w: -0.9979382}
+      scale: {x: 1.0000072, y: 1.0000013, z: 1.0000054}
+    - name: nhocBeo_rig_game_low:IndexFinger3_L
+      parentName: nhocBeo_rig_game_low:IndexFinger2_L
+      position: {x: 0.003500924, y: -0.000000009536743, z: -0.0000000047683715}
+      rotation: {x: 0.017842863, y: -0.012337698, z: -0.0019767915, w: 0.9997627}
+      scale: {x: 1.0000132, y: 1.0000062, z: 1.0000085}
+    - name: nhocBeo_rig_game_low:IndexFinger4_L
+      parentName: nhocBeo_rig_game_low:IndexFinger3_L
+      position: {x: 0.0037111759, y: 0.000000010728836, z: -0.000000028610229}
+      rotation: {x: -0.000000005587934, y: -0.000000009313224, z: 0.000000074374825, w: 1}
+      scale: {x: 1.000011, y: 1.000006, z: 1.0000055}
+    - name: nhocBeo_rig_game_low:IndexFinger4_L_end
+      parentName: nhocBeo_rig_game_low:IndexFinger4_L
+      position: {x: -0, y: 0.0037111684, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:RingFinger1_L
+      parentName: nhocBeo_rig_game_low:Wrist_L
+      position: {x: 0.021361055, y: 0.0050289845, z: 0.00077456}
+      rotation: {x: -0.029241756, y: -0.012407872, z: 0.036884196, w: 0.9988145}
+      scale: {x: 1.0000137, y: 1.0000074, z: 1.0000094}
+    - name: nhocBeo_rig_game_low:RingFinger2_L
+      parentName: nhocBeo_rig_game_low:RingFinger1_L
+      position: {x: 0.005633371, y: -0.000000015497207, z: 0.0000000047683715}
+      rotation: {x: 0.017644376, y: 0.0008328585, z: 0.0000861187, w: 0.999844}
+      scale: {x: 1.000014, y: 1.0000064, z: 1.0000058}
+    - name: nhocBeo_rig_game_low:RingFinger3_L
+      parentName: nhocBeo_rig_game_low:RingFinger2_L
+      position: {x: 0.0044301557, y: -0.000000019073486, z: -0.0000000047683715}
+      rotation: {x: 0.003162714, y: 0.02225478, z: 0.0018320307, w: 0.99974567}
+      scale: {x: 1.0000136, y: 1.0000068, z: 1.0000073}
+    - name: nhocBeo_rig_game_low:RingFinger4_L
+      parentName: nhocBeo_rig_game_low:RingFinger3_L
+      position: {x: 0.0041416166, y: 0.0000000047683715, z: -0.0000000047683715}
+      rotation: {x: -0.0000000023283064, y: -0.00000006891787, z: 0.0000000850996, w: 1}
+      scale: {x: 0.9999991, y: 1.0000023, z: 0.9999994}
+    - name: nhocBeo_rig_game_low:RingFinger4_L_end
+      parentName: nhocBeo_rig_game_low:RingFinger4_L
+      position: {x: -0, y: 0.00414162, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:PinkyFinger1_L
+      parentName: nhocBeo_rig_game_low:Wrist_L
+      position: {x: 0.020312756, y: 0.010291285, z: 0.001826849}
+      rotation: {x: -0.045326892, y: 0.017238023, z: 0.027089927, w: 0.99845606}
+      scale: {x: 1.0000163, y: 1.0000061, z: 1.0000069}
+    - name: nhocBeo_rig_game_low:PinkyFinger2_L
+      parentName: nhocBeo_rig_game_low:PinkyFinger1_L
+      position: {x: 0.004952459, y: 0.00000002503395, z: -0.000000009536743}
+      rotation: {x: 0.0023663978, y: -0.00000040791932, z: -0.0000006218907, w: 0.9999972}
+      scale: {x: 0.9999918, y: 0.99999684, z: 0.99999887}
+    - name: nhocBeo_rig_game_low:PinkyFinger3_L
+      parentName: nhocBeo_rig_game_low:PinkyFinger2_L
+      position: {x: 0.0027580913, y: 0.0000000035762786, z: -0.000000030994414}
+      rotation: {x: 0.019628104, y: 0.00000084729254, z: 0.0000010817309, w: 0.9998074}
+      scale: {x: 1.0000162, y: 1.0000082, z: 1.0000079}
+    - name: nhocBeo_rig_game_low:PinkyFinger4_L
+      parentName: nhocBeo_rig_game_low:PinkyFinger3_L
+      position: {x: 0.0032575987, y: 0.000000011920928, z: -0.000000009536743}
+      rotation: {x: 0.000000016763806, y: -0.0000011733572, z: -0.0000015065252, w: 1}
+      scale: {x: 1.0000097, y: 1.0000027, z: 1.0000055}
+    - name: nhocBeo_rig_game_low:PinkyFinger4_L_end
+      parentName: nhocBeo_rig_game_low:PinkyFinger4_L
+      position: {x: -0, y: 0.00325758, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Hip_R
+      parentName: nhocBeo_rig_game_low:Root_M
+      position: {x: -0.00043593015, y: -0.0023718032, z: -0.026974935}
+      rotation: {x: 0.018614633, y: 0.9998267, z: 0.000000059604638, w: -0.000000029802319}
+      scale: {x: 1.0000029, y: 1.0000002, z: 1.0000011}
+    - name: nhocBeo_rig_game_low:HipPart1_R
+      parentName: nhocBeo_rig_game_low:Hip_R
+      position: {x: -0.03109995, y: -0.00000001296401, z: -0.000000008195639}
+      rotation: {x: -5.547601e-10, y: -0.000000029797148, z: -0.00000008940696, w: 1}
+      scale: {x: 0.9999953, y: 0.9999974, z: 0.9999988}
+    - name: nhocBeo_rig_game_low:Knee_R
+      parentName: nhocBeo_rig_game_low:HipPart1_R
+      position: {x: -0.031099953, y: 0.0000000061839818, z: -0.0000000048056243}
+      rotation: {x: 0.000000030628136, y: 0.000000066851285, z: 0.1190506, w: 0.9928882}
+      scale: {x: 1.0000064, y: 1.0000088, z: 1.0000052}
+    - name: nhocBeo_rig_game_low:KneePart1_R
+      parentName: nhocBeo_rig_game_low:Knee_R
+      position: {x: -0.018828683, y: -0.000000010430813, z: 0.000000008009374}
+      rotation: {x: -0.00000006765074, y: 0.00000005452425, z: 0.00000008195638, w: 1}
+      scale: {x: 1.0000017, y: 1.0000015, z: 1.0000049}
+    - name: nhocBeo_rig_game_low:Ankle_R
+      parentName: nhocBeo_rig_game_low:KneePart1_R
+      position: {x: -0.018828684, y: 0.000000004470348, z: -0.000000014100223}
+      rotation: {x: -0.0023673065, y: 0.00025510218, z: -0.107216425, w: 0.99423283}
+      scale: {x: 0.9999991, y: 1.0000023, z: 1.0000007}
+    - name: nhocBeo_rig_game_low:Toes_R
+      parentName: nhocBeo_rig_game_low:Ankle_R
+      position: {x: -0.007884042, y: 0.015251553, z: -0.0000000022190587}
+      rotation: {x: 0.0018137908, y: 0.0011799532, z: -0.5675928, w: 0.82330656}
+      scale: {x: 1.0000012, y: 1.0000024, z: 1.0000023}
+    - name: nhocBeo_rig_game_low:ToesEnd_R
+      parentName: nhocBeo_rig_game_low:Toes_R
+      position: {x: -0.016116818, y: 7.4505804e-11, z: -0.0000000059775536}
+      rotation: {x: 0.00000004982575, y: 0.00000003230525, z: -0.000000113627934, w: 1}
+      scale: {x: 1.0000056, y: 1, z: 1.0000074}
+    - name: nhocBeo_rig_game_low:ToesEnd_R_end
+      parentName: nhocBeo_rig_game_low:ToesEnd_R
+      position: {x: -0, y: 0.009725266, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:PinkyToe1_R
+      parentName: nhocBeo_rig_game_low:Toes_R
+      position: {x: -0.0048525245, y: -0.0019527309, z: 0.010546225}
+      rotation: {x: 0.00310742, y: 0.010467871, z: -0.06972486, w: 0.9975065}
+      scale: {x: 1.0000015, y: 1.0000024, z: 1.0000086}
+    - name: nhocBeo_rig_game_low:PinkyToe2_R
+      parentName: nhocBeo_rig_game_low:PinkyToe1_R
+      position: {x: -0.0025950193, y: -0.000000001490116, z: -0.0000000014756353}
+      rotation: {x: -0.00000032852407, y: -0.000000060535974, z: 0.000000038533475, w: 1}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000001}
+    - name: nhocBeo_rig_game_low:PinkyToe3_R
+      parentName: nhocBeo_rig_game_low:PinkyToe2_R
+      position: {x: -0.0018476285, y: 0.0000000031292438, z: -0.000000002246942}
+      rotation: {x: -0.00000011245721, y: 0.000000100582845, z: -3.3829048e-10, w: 1}
+      scale: {x: 1, y: 1.0000011, z: 1.0000023}
+    - name: nhocBeo_rig_game_low:PinkyToe4_R
+      parentName: nhocBeo_rig_game_low:PinkyToe3_R
+      position: {x: -0.0034357451, y: 0.0000000011920929, z: 0.000000005227079}
+      rotation: {x: -0.000000011175915, y: -0.00000008009373, z: -0.000000036998287, w: 1}
+      scale: {x: 1.000001, y: 1.0000005, z: 1.0000014}
+    - name: nhocBeo_rig_game_low:PinkyToe4_R_end
+      parentName: nhocBeo_rig_game_low:PinkyToe4_R
+      position: {x: -0, y: 0.003435725, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:RingToe1_R
+      parentName: nhocBeo_rig_game_low:Toes_R
+      position: {x: -0.004440634, y: -0.0012595099, z: 0.006249432}
+      rotation: {x: 0.008500588, y: 0.029173784, z: -0.078086354, w: 0.99648345}
+      scale: {x: 1.0000023, y: 1.0000031, z: 1.0000077}
+    - name: nhocBeo_rig_game_low:RingToe2_R
+      parentName: nhocBeo_rig_game_low:RingToe1_R
+      position: {x: -0.0036583191, y: -2.9802322e-10, z: 0.000000009214026}
+      rotation: {x: -0.00000010989605, y: -0.000000050291412, z: -0.0000000013969838, w: 1}
+      scale: {x: 1.0000026, y: 1.0000001, z: 1.0000042}
+    - name: nhocBeo_rig_game_low:RingToe3_R
+      parentName: nhocBeo_rig_game_low:RingToe2_R
+      position: {x: -0.0032167009, y: 8.9406965e-10, z: -0.000000007946786}
+      rotation: {x: 0.0000001406297, y: -0.000000040978197, z: 0.000000052590604, w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000013}
+    - name: nhocBeo_rig_game_low:RingToe4_R
+      parentName: nhocBeo_rig_game_low:RingToe3_R
+      position: {x: -0.0031555211, y: 1.4901161e-10, z: -0.000000005174878}
+      rotation: {x: 0.000000090338276, y: 0.000000033527606, z: -0.000000044907214, w: 1}
+      scale: {x: 1.0000051, y: 1.0000002, z: 1.0000036}
+    - name: nhocBeo_rig_game_low:RingToe4_R_end
+      parentName: nhocBeo_rig_game_low:RingToe4_R
+      position: {x: -0, y: 0.0031555116, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:MiddleToe1_R
+      parentName: nhocBeo_rig_game_low:Toes_R
+      position: {x: -0.004417153, y: -0.00068018347, z: 0.0017114028}
+      rotation: {x: 0.014128695, y: 0.048378855, z: -0.078169115, w: 0.9956654}
+      scale: {x: 1.0000011, y: 1.0000014, z: 1.0000064}
+    - name: nhocBeo_rig_game_low:MiddleToe2_R
+      parentName: nhocBeo_rig_game_low:MiddleToe1_R
+      position: {x: -0.0038782933, y: 0.0000000011920929, z: 0.0000000112346354}
+      rotation: {x: -0.00000016763805, y: 0.00000002235174, z: -0.000000006868503, w: 1}
+      scale: {x: 1.0000039, y: 0.9999996, z: 1.0000013}
+    - name: nhocBeo_rig_game_low:MiddleToe3_R
+      parentName: nhocBeo_rig_game_low:MiddleToe2_R
+      position: {x: -0.0037004324, y: -0.000000002980232, z: 0.000000013456982}
+      rotation: {x: 0.00000008102507, y: -0.000000018626462, z: 0.00000007479682, w: 1}
+      scale: {x: 1.0000043, y: 1.0000002, z: 1.0000054}
+    - name: nhocBeo_rig_game_low:MiddleToe4_R
+      parentName: nhocBeo_rig_game_low:MiddleToe3_R
+      position: {x: -0.0035273486, y: -0.0000000038743018, z: -0.0000000035938095}
+      rotation: {x: 0.0000000027939464, y: 0.0000000074505815, z: -0.000000014901146, w: 1}
+      scale: {x: 1.0000051, y: 0.9999998, z: 1.0000044}
+    - name: nhocBeo_rig_game_low:MiddleToe4_R_end
+      parentName: nhocBeo_rig_game_low:MiddleToe4_R
+      position: {x: -0, y: 0.003527348, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:LongToe1_R
+      parentName: nhocBeo_rig_game_low:Toes_R
+      position: {x: -0.0044118203, y: -0.00046025513, z: -0.0033601683}
+      rotation: {x: 0.00968836, y: 0.036508065, z: -0.102453165, w: 0.99402046}
+      scale: {x: 0.99999815, y: 1.000004, z: 1.0000045}
+    - name: nhocBeo_rig_game_low:LongToe2_R
+      parentName: nhocBeo_rig_game_low:LongToe1_R
+      position: {x: -0.0051295906, y: -0.000000002980232, z: 0.000000005960464}
+      rotation: {x: 0.00000009499491, y: -0.00000007078052, z: 0.000000013853424, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: nhocBeo_rig_game_low:LongToe3_R
+      parentName: nhocBeo_rig_game_low:LongToe2_R
+      position: {x: -0.0034423051, y: 5.9604643e-10, z: -0.000000015423959}
+      rotation: {x: -0.00000007450581, y: 0.000000096857555, z: -0.000000008440116, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000005}
+    - name: nhocBeo_rig_game_low:LongToe4_R
+      parentName: nhocBeo_rig_game_low:LongToe3_R
+      position: {x: -0.004111893, y: -8.9406965e-10, z: -2.5430907e-10}
+      rotation: {x: -0.000000011175872, y: -0.000000085681684, z: 8.149099e-10, w: 1}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000004}
+    - name: nhocBeo_rig_game_low:LongToe4_R_end
+      parentName: nhocBeo_rig_game_low:LongToe4_R
+      position: {x: -0, y: 0.004111885, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:BigToe1_R
+      parentName: nhocBeo_rig_game_low:Toes_R
+      position: {x: -0.008380906, y: 0.00033339797, z: -0.009055263}
+      rotation: {x: 0.0035780307, y: 0.012554126, z: -0.081462644, w: 0.9965909}
+      scale: {x: 1.0000027, y: 1.0000029, z: 1.00001}
+    - name: nhocBeo_rig_game_low:BigToe2_R
+      parentName: nhocBeo_rig_game_low:BigToe1_R
+      position: {x: -0.0036157412, y: -0.000000001117587, z: -0.000000003829338}
+      rotation: {x: 0.000000018160788, y: -0.000000020489095, z: 5.748006e-10, w: 1}
+      scale: {x: 1.0000006, y: 1.000001, z: 1.0000036}
+    - name: nhocBeo_rig_game_low:BigToe3_R
+      parentName: nhocBeo_rig_game_low:BigToe2_R
+      position: {x: -0.0040975637, y: 0.0000000010430813, z: -0.0000000019584356}
+      rotation: {x: -0, y: -0, z: -1.6479898e-17, w: 1}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000039}
+    - name: nhocBeo_rig_game_low:BigToe3_R_end
+      parentName: nhocBeo_rig_game_low:BigToe3_R
+      position: {x: -0, y: 0.0040975637, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Hip_L
+      parentName: nhocBeo_rig_game_low:Root_M
+      position: {x: -0.00036178893, y: -0.0023718297, z: 0.026976027}
+      rotation: {x: 0.9998267, y: -0.018614618, z: 0.0000000745058, w: -0.000000059604638}
+      scale: {x: 1.0000018, y: 1.0000014, z: 1.0000002}
+    - name: nhocBeo_rig_game_low:HipPart1_L
+      parentName: nhocBeo_rig_game_low:Hip_L
+      position: {x: 0.031099942, y: 0.000000004172325, z: 0.0000000023841857}
+      rotation: {x: -0.0000000609812, y: -0.00000007338337, z: -0, w: 1}
+      scale: {x: 0.99999696, y: 0.99999475, z: 0.9999985}
+    - name: nhocBeo_rig_game_low:Knee_L
+      parentName: nhocBeo_rig_game_low:HipPart1_L
+      position: {x: 0.031099949, y: 0.000000004246831, z: -0.0000000035762786}
+      rotation: {x: 7.1054265e-15, y: 7.1054265e-15, z: -0.11905035, w: -0.9928882}
+      scale: {x: 1.0000086, y: 1.0000064, z: 1.0000081}
+    - name: nhocBeo_rig_game_low:KneePart1_L
+      parentName: nhocBeo_rig_game_low:Knee_L
+      position: {x: 0.018828671, y: -0.0000000047683715, z: -0.0000000020861626}
+      rotation: {x: 0.000000029519203, y: -0.000000004098166, z: 0.00000016391277, w: 1}
+      scale: {x: 0.9999986, y: 0.99999994, z: 0.9999948}
+    - name: nhocBeo_rig_game_low:Ankle_L
+      parentName: nhocBeo_rig_game_low:KneePart1_L
+      position: {x: 0.018828671, y: -0.000000004172325, z: -0.000000009834766}
+      rotation: {x: -0.0023673659, y: 0.00025530558, z: -0.10721634, w: 0.9942329}
+      scale: {x: 1.0000017, y: 1.0000117, z: 1.0000123}
+    - name: nhocBeo_rig_game_low:Toes_L
+      parentName: nhocBeo_rig_game_low:Ankle_L
+      position: {x: 0.007884034, y: -0.015251539, z: 5.304632e-10}
+      rotation: {x: -0.001813825, y: -0.0011800387, z: 0.56759274, w: -0.8233066}
+      scale: {x: 1.000006, y: 1.0000108, z: 1.0000015}
+    - name: nhocBeo_rig_game_low:ToesEnd_L
+      parentName: nhocBeo_rig_game_low:Toes_L
+      position: {x: 0.016116805, y: 0.000000004917383, z: -0.000000004469275}
+      rotation: {x: -5.8207666e-10, y: -0.000000040512536, z: -0.000000113766426, w: 1}
+      scale: {x: 1.0000001, y: 1.0000026, z: 1.0000019}
+    - name: nhocBeo_rig_game_low:ToesEnd_L_end
+      parentName: nhocBeo_rig_game_low:ToesEnd_L
+      position: {x: -0, y: 0.009725267, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:PinkyToe1_L
+      parentName: nhocBeo_rig_game_low:Toes_L
+      position: {x: 0.0048525175, y: 0.0019527355, z: -0.010546234}
+      rotation: {x: 0.0031073685, y: 0.010469235, z: -0.06972494, w: 0.9975065}
+      scale: {x: 0.999996, y: 1.0000082, z: 0.99999994}
+    - name: nhocBeo_rig_game_low:PinkyToe2_L
+      parentName: nhocBeo_rig_game_low:PinkyToe1_L
+      position: {x: 0.0025950205, y: -8.9406965e-10, z: 0.0000000050917985}
+      rotation: {x: -0.00000026728958, y: -0.0000015730038, z: 0.00000012894452, w: 1}
+      scale: {x: 1.0000027, y: 1.0000058, z: 1.0000029}
+    - name: nhocBeo_rig_game_low:PinkyToe3_L
+      parentName: nhocBeo_rig_game_low:PinkyToe2_L
+      position: {x: 0.0018476465, y: -5.9604643e-10, z: -0.000000009039233}
+      rotation: {x: -0.0000001236334, y: -0.0000010496008, z: -0.00000009362711, w: 1}
+      scale: {x: 1.0000026, y: 1.0000082, z: 1.000004}
+    - name: nhocBeo_rig_game_low:PinkyToe4_L
+      parentName: nhocBeo_rig_game_low:PinkyToe3_L
+      position: {x: 0.003435723, y: 5.9604643e-10, z: -0.00000000880281}
+      rotation: {x: 0.0000000037252053, y: -0.000000085681684, z: -0.000000029536785, w: 1}
+      scale: {x: 1.0000072, y: 1.0000111, z: 1.0000058}
+    - name: nhocBeo_rig_game_low:PinkyToe4_L_end
+      parentName: nhocBeo_rig_game_low:PinkyToe4_L
+      position: {x: -0, y: 0.003435725, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:RingToe1_L
+      parentName: nhocBeo_rig_game_low:Toes_L
+      position: {x: 0.004440615, y: 0.0012595224, z: -0.0062494436}
+      rotation: {x: 0.008500678, y: 0.029174477, z: -0.07808651, w: 0.99648345}
+      scale: {x: 0.9999967, y: 1.0000104, z: 1.0000038}
+    - name: nhocBeo_rig_game_low:RingToe2_L
+      parentName: nhocBeo_rig_game_low:RingToe1_L
+      position: {x: 0.0036583536, y: -0.000000002980232, z: 0.0000000053641562}
+      rotation: {x: -0.00000019371507, y: -0.0000013932585, z: 0.00000026967606, w: 1}
+      scale: {x: 1.000004, y: 1.000006, z: 1.0000008}
+    - name: nhocBeo_rig_game_low:RingToe3_L
+      parentName: nhocBeo_rig_game_low:RingToe2_L
+      position: {x: 0.0032166978, y: -0.0000000038743018, z: 8.753014e-10}
+      rotation: {x: 0.00000019464672, y: 0.0000018477438, z: -0.00000011987858, w: 1}
+      scale: {x: 1.0000011, y: 1.000002, z: 1.0000012}
+    - name: nhocBeo_rig_game_low:RingToe4_L
+      parentName: nhocBeo_rig_game_low:RingToe3_L
+      position: {x: 0.0031555083, y: 0.0000000058114527, z: -0.000000004903874}
+      rotation: {x: -0.0000000074505797, y: -0.000000029802319, z: 2.6193586e-10, w: 1}
+      scale: {x: 1.0000027, y: 1.0000046, z: 0.99999994}
+    - name: nhocBeo_rig_game_low:RingToe4_L_end
+      parentName: nhocBeo_rig_game_low:RingToe4_L
+      position: {x: -0, y: 0.0031555118, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:MiddleToe1_L
+      parentName: nhocBeo_rig_game_low:Toes_L
+      position: {x: 0.0044171466, y: 0.0006801918, z: -0.0017114112}
+      rotation: {x: 0.014128867, y: 0.0483798, z: -0.07816908, w: 0.9956653}
+      scale: {x: 0.9999967, y: 1.0000129, z: 1.0000042}
+    - name: nhocBeo_rig_game_low:MiddleToe2_L
+      parentName: nhocBeo_rig_game_low:MiddleToe1_L
+      position: {x: 0.00387829, y: 0, z: 0.000000019187869}
+      rotation: {x: -0.00000017881389, y: -0.0000016912813, z: 0.00000007741617, w: 1}
+      scale: {x: 1.0000044, y: 1.0000122, z: 1.0000011}
+    - name: nhocBeo_rig_game_low:MiddleToe3_L
+      parentName: nhocBeo_rig_game_low:MiddleToe2_L
+      position: {x: 0.0037004303, y: -0.0000000017881393, z: -0.0000000034842509}
+      rotation: {x: 0.00000007543713, y: 0.0000010728834, z: -0.000000037369244, w: 1}
+      scale: {x: 1.0000029, y: 1.0000024, z: 1.0000054}
+    - name: nhocBeo_rig_game_low:MiddleToe4_L
+      parentName: nhocBeo_rig_game_low:MiddleToe3_L
+      position: {x: 0.0035273319, y: 0.0000000010430813, z: 0.000000014603139}
+      rotation: {x: 0.000000074505806, y: -0.00000008568191, z: 0.00000004615864, w: 1}
+      scale: {x: 1.0000007, y: 1.000003, z: 1.000001}
+    - name: nhocBeo_rig_game_low:MiddleToe4_L_end
+      parentName: nhocBeo_rig_game_low:MiddleToe4_L
+      position: {x: -0, y: 0.003527348, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:LongToe1_L
+      parentName: nhocBeo_rig_game_low:Toes_L
+      position: {x: 0.0044118217, y: 0.0004602611, z: 0.0033601576}
+      rotation: {x: 0.009688357, y: 0.036508016, z: -0.10245309, w: 0.9940205}
+      scale: {x: 0.9999946, y: 1.0000147, z: 1.0000012}
+    - name: nhocBeo_rig_game_low:LongToe2_L
+      parentName: nhocBeo_rig_game_low:LongToe1_L
+      position: {x: 0.0051295995, y: 0, z: 0.000000005790439}
+      rotation: {x: 0.00000024400646, y: 0.0000021643932, z: -0.000000074069234, w: 1}
+      scale: {x: 0.99999946, y: 1.0000027, z: 0.99999946}
+    - name: nhocBeo_rig_game_low:LongToe3_L
+      parentName: nhocBeo_rig_game_low:LongToe2_L
+      position: {x: 0.0034422895, y: 0.000000001490116, z: 0.000000023425542}
+      rotation: {x: -0.00000009033815, y: -0.0000019259746, z: 0.000000018481199, w: 1}
+      scale: {x: 1.0000008, y: 0.9999978, z: 0.9999972}
+    - name: nhocBeo_rig_game_low:LongToe4_L
+      parentName: nhocBeo_rig_game_low:LongToe3_L
+      position: {x: 0.0041119005, y: -8.9406965e-10, z: 6.145824e-10}
+      rotation: {x: -0.000000025145706, y: -0, z: 0.000000029744106, w: 1}
+      scale: {x: 1.0000002, y: 1.0000024, z: 1.0000004}
+    - name: nhocBeo_rig_game_low:LongToe4_L_end
+      parentName: nhocBeo_rig_game_low:LongToe4_L
+      position: {x: -0, y: 0.004111885, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:BigToe1_L
+      parentName: nhocBeo_rig_game_low:Toes_L
+      position: {x: 0.008380911, y: -0.0003333938, z: 0.009055256}
+      rotation: {x: 0.0035779143, y: 0.012554102, z: -0.081462525, w: 0.9965909}
+      scale: {x: 0.9999973, y: 1.0000124, z: 1.0000038}
+    - name: nhocBeo_rig_game_low:BigToe2_L
+      parentName: nhocBeo_rig_game_low:BigToe1_L
+      position: {x: 0.0036157332, y: 0.0000000017881393, z: -0.000000003173077}
+      rotation: {x: 0.000000039348375, y: 0.00000070128584, z: -0.00000026867198, w: 1}
+      scale: {x: 0.99999803, y: 0.9999973, z: 0.9999984}
+    - name: nhocBeo_rig_game_low:BigToe3_L
+      parentName: nhocBeo_rig_game_low:BigToe2_L
+      position: {x: 0.004097581, y: 8.9406965e-10, z: -0.000000004080625}
+      rotation: {x: -0.000000026775538, y: -0.00000008940696, z: 0.000000059921135, w: 1}
+      scale: {x: 1.0000001, y: 0.9999996, z: 1.0000012}
+    - name: nhocBeo_rig_game_low:BigToe3_L_end
+      parentName: nhocBeo_rig_game_low:BigToe3_L
+      position: {x: -0, y: 0.0040975637, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Geometry
+      parentName: nhocBeo_rig_game_low:Group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Beo_low
+      parentName: nhocBeo_rig_game_low:Geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Eye_L_low
+      parentName: nhocBeo_rig_game_low:Beo_low
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nhocBeo_rig_game_low:Eye_R_low
+      parentName: nhocBeo_rig_game_low:Beo_low
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: b0b8cd87f8c6c10419ba239a4b179afa
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.022
+    second: {fileID: 2100000, guid: 48fa71f69c86d994e9f854b28e45cb02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bechuoi_RS_shdr.008
+    second: {fileID: 2100000, guid: bea00dffb71cedd4296ff18238bb004c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: biada2_RS_shdr.002
+    second: {fileID: 2100000, guid: 685d935cc62183c4ca1a4cd2289ceacf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: canh_la_hoagao_RS_shdr.002
+    second: {fileID: 2100000, guid: 498346861ff78254b918ff4782ebccde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: caychuoi1_RS_shdr.008
+    second: {fileID: 2100000, guid: 81ea06e70251b8a4ba4d6976144b8b05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chancau2_RS_shdr.002
+    second: {fileID: 2100000, guid: 47cf7abb4f4760741b5d755c4a2e3e03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: co337_RS_shdr.002
+    second: {fileID: 2100000, guid: 861b1803053f0024dae0e3e611d6e70d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cot1_RS_shdr.002
+    second: {fileID: 2100000, guid: 4558f52d648221c458302e97be3e37f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dagoccay37_RS_shdr.005
+    second: {fileID: 2100000, guid: 00bcdd10e1d441f40b65c8af22065f0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: davensong49_RS_shdr.005
+    second: {fileID: 2100000, guid: a9cb63c625159a4468d94cba5c272816, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dehoa_shdr.002
+    second: {fileID: 2100000, guid: 3d0730aaddf655b45a582d641b2cc52f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hoatiet1_RS_shdr.002
+    second: {fileID: 2100000, guid: 948aa8e243f5b1544aa6e68644523d59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lacay_RS1.005
+    second: {fileID: 2100000, guid: 051805fe53466d74fae71054da370c47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lagia1.005
+    second: {fileID: 2100000, guid: 2023ec21770888140a933e9a6ae03722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lanon1.005
+    second: {fileID: 2100000, guid: 8ff353726d38afd40a137216921ac361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: laxanhdam1.005
+    second: {fileID: 2100000, guid: 464f10778956bea41b51a55b107f4b6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mainha1_RS_shdr.002
+    second: {fileID: 2100000, guid: 2e831ffe98dd4064c9c3aa9c7279134d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: matcau1_RS_shdr.002
+    second: {fileID: 2100000, guid: 735874e2df75e1a4aba67ea27bd153f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: namdiay_RS_shdr.002
+    second: {fileID: 2100000, guid: 1ad9594cbe5eb344497aa5393f1da4bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__startAppleTree_leaf_mtl1_RS.005
+    second: {fileID: 2100000, guid: 54e1b138ca34cae4bb5c8c966dfd6bed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__startAppleTree_trunk_mtl1_RS.005
+    second: {fileID: 2100000, guid: c84198e6e4c052c42a1480b757dbc0c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: quachuoi1_RS_shdr.007
+    second: {fileID: 2100000, guid: 0082d341f12f9d04688363cb235a5aae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rscanhhoa.005
+    second: {fileID: 2100000, guid: ffe2e65c5ddaf704dbfe60e1c09d9304, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: than3.005
+    second: {fileID: 2100000, guid: 6031aa7d072dd2d4f861783bbf96a540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thancaygao_RS_shdr.002
+    second: {fileID: 2100000, guid: 2004471736dc4634aa266ca4aae05d5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: them1_RS_shdr.002
+    second: {fileID: 2100000, guid: 637856cd3fa994946b306fe81e46e2a7, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
